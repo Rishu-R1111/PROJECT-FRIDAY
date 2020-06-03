@@ -36,3 +36,5 @@ if __name__ == '__main__':
 
     html = fetch_results('')
     parse_results(html) 
+
+    
