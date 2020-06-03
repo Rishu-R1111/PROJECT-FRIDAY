@@ -1,20 +1,5 @@
-import speech_recognition as sr
-import pyttsx3
-import random
-import re
-from time import ctime
-import time
-from datetime import datetime
-import webbrowser
-import math
-import subprocess
-from weather import Weather, Unit
-import requests
-from bs4 import BeautifulSoup
-import urllib3
-import urllib
-import urllib2
-import threading
+import speech_recognition as sr import pyttsx3 import random import re from time import ctime import time from datetime import datetime
+import webbrowser import math import subprocess from weather import Weather, Unit import requests from bs4 import BeautifulSoup import urllib3 import urllib import urllib2 import threading
 
 count_silence = 0
 index_num = 0
