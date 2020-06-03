@@ -7,7 +7,6 @@ Soon I Will be upgrading it fully based on Artifitial intelligence-Machine leani
 This project is about voice assistant like google ,amazon echo.
 If u guys have any good suggesstion please let me know. i can try definatly.
 
-![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wired.co.uk%2Farticle%2Fmark-zuckerberg-jarvis-ai&psig=AOvVaw26IlUk36fpGp1HY-vwcClp&ust=1591262320391000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJiZsqWo5ekCFQAAAAAdAAAAABAN)
 
 
 Before you going 
