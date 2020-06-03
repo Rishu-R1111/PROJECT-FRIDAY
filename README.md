@@ -9,7 +9,38 @@ If u guys have any good suggesstion please let me know. i can try definatly.
 
 <p align="center">
 <img src="https://vignette.wikia.nocookie.net/ironman/images/0/03/F.R.I.D.A.Y.jpg/revision/latest?cb=20191210194050.PNG" width="95%" height="auto">
+</p
+   
+   
+   <p align="center">
+<img src="https://www.wikihow.com/images/thumb/0/0e/Create-a-JARVIS-Like-AI-Assistant-Step-18-Version-2.jpg/aid2824586-v4-728px-Create-a-JARVIS-Like-AI-Assistant-Step-18-Version-2.jpg.PNG" width="95%" height="auto">
 </p>
+
+
+   <p align="center">
+<img src=".PNG" width="95%" height="auto">
+</p>
+
+
+   <p align="center">
+<img src=".PNG" width="95%" height="auto">
+</p>
+
+
+   <p align="center">
+<img src=".PNG" width="95%" height="auto">
+</p>
+
+
+   <p align="center">
+<img src=".PNG" width="95%" height="auto">
+</p>
+
+
+   <p align="center">
+<img src=".PNG" width="95%" height="auto">
+</p>
+
 
 
 Before you going 
