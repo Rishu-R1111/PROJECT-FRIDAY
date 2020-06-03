@@ -43,4 +43,4 @@ def read_voice_cmd():
         pass
     return voice_text
 
-read_voice_cmd()
+read_voice_cmd() 
