@@ -12,15 +12,15 @@ If u guys have any good suggesstion please let me know. i can try definatly.
 </p
 
 
+   <p align="center">
+<img src="https://i.pinimg.com/originals/86/86/46/8686467b4948402603ed643d47d1ec09.jpg" width="95%" height="auto">
+</p>
+
 
    <p align="center">
 <img src="https://miro.medium.com/max/2800/1*qij9GNDjQhJP4Kh81z-SsQ.png" width="95%" height="auto">
 </p>
 
-
-   <p align="center">
-<img src=".PNG" width="95%" height="auto">
-</p>
 
 
    <p align="center">
