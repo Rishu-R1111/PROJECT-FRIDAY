@@ -7,6 +7,9 @@ Soon I Will be upgrading it fully based on Artifitial intelligence-Machine leani
 This project is about voice assistant like google ,amazon echo.
 If u guys have any good suggesstion please let me know. i can try definatly.
 
+![alt text](https://github.com/ggeop/Python-ai-assistant/blob/master/imgs/jarvis_logo.png)
+
+
 Before you going 
 you need to install few packages
 
