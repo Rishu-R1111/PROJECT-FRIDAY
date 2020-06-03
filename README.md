@@ -7,6 +7,9 @@ Soon I Will be upgrading it fully based on Artifitial intelligence-Machine leani
 This project is about voice assistant like google ,amazon echo.
 If u guys have any good suggesstion please let me know. i can try definatly.
 
+<p align="center">
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wikihow.com%2FCreate-a-JARVIS-Like-AI-Assistant&psig=AOvVaw0vvTucLqDlL2vuo0P2Xcjf&ust=1591262744179000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjoiuyp5ekCFQAAAAAdAAAAABAD" width="95%" height="auto">
+</p>
 
 
 Before you going 
