@@ -8,7 +8,7 @@ This project is about voice assistant like google ,amazon echo.
 If u guys have any good suggesstion please let me know. i can try definatly.
 
 <p align="center">
-<img src="https://camo.githubusercontent.com/13b8a879c25516df1393bbed9a53267be8d67f6b/68747470733a2f2f7669676e657474652e77696b69612e6e6f636f6f6b69652e6e65742f69726f6e6d616e2f696d616765732f302f30332f462e522e492e442e412e592e6a70672f7265766973696f6e2f6c61746573743f63623d32303139313231303139343035302e504e47.PNG" width="95%" height="auto">
+<img src="https://vignette.wikia.nocookie.net/ironman/images/0/03/F.R.I.D.A.Y.jpg/revision/latest?cb=20191210194050" width="95%" height="auto">
 </p
 
    <p align="center">
