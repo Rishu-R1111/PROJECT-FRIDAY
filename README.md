@@ -11,18 +11,10 @@ If u guys have any good suggesstion please let me know. i can try definatly.
 <img src="https://vignette.wikia.nocookie.net/ironman/images/0/03/F.R.I.D.A.Y.jpg/revision/latest?cb=20191210194050" width="95%" height="auto">
 </p
 
-   <p align="center">
-<img src="https://i.ytimg.com/vi/NywLtsvbmPc/maxresdefault.jpg" width="95%" height="auto">
-</p>
 
 
    <p align="center">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSNfm-xPLd4PfADcj59doLugw33n4xuwhX07zVBYdtyIItbE3Oi&usqp=CAU.PNG" width="95%" height="auto">
-</p>
-
-
-   <p align="center">
-<img src=".PNG" width="95%" height="auto">
+<img src="https://miro.medium.com/max/2800/1*qij9GNDjQhJP4Kh81z-SsQ.png" width="95%" height="auto">
 </p>
 
 
