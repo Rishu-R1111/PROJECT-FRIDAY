@@ -13,14 +13,14 @@ Friday : From The Avengers
 </p>
 
 <p align="center">
-<img src="https://i.redd.it/24uppmu8xdd31.png" width="85%" height="auto">
+<img src="https://i.redd.it/24uppmu8xdd31.png" width="65%" height="auto">
 </p>
 
 ------------------------------------
 Alice : From Resident Evil 
 ------------------------------------
 <p align="center">
-<img src="https://i.redd.it/24uppmu8xdd31.png" width="85%" height="auto">
+<img src="https://cutewallpaper.org/21/resident-evil-alice-wallpaper/Alice-Resident-Evil-Afterlife-wallpaper-Movie-.jpg" width="95%" height="auto">
 </p
 
 -------------------------------------
