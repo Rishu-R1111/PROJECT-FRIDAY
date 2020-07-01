@@ -1,4 +1,4 @@
-# Project_Friday
+# Project_Friday_with_Alice
 
 ------------------------------------
 HeY, M Rishu , I am developing this project with using python more like the Google voice assistant. this was completed 40%. Soon I Will be upgrading it fully based on Artifitial intelligence-Machine leaning like adaptibility. This project is about voice assistant like google ,amazon echo. If u guys have any good suggesstion please let me know. i can try definatly.
