@@ -10,10 +10,11 @@ Friday : From The Avengers
 ------------------------------------
 <p align="center">
 <img src="https://vignette.wikia.nocookie.net/ironman/images/0/03/F.R.I.D.A.Y.jpg/revision/latest?cb=20191210194050" width="95%" height="auto">
-</p
+</p>
+
 <p align="center">
 <img src="https://i.redd.it/24uppmu8xdd31.png" width="85%" height="auto">
-</p
+</p>
 
 ------------------------------------
 Alice : From Resident Evil 
