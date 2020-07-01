@@ -33,6 +33,13 @@ Before you going
 you need to install few packages
 
 ------------------------------------
+
+------------------------------------
+better VSC integration trackers, KOTLIN JVL-based project Application, typecasted in XML  AspectJ, CDI,  EJB, Grails, GWT, Helidon, Java EE, JavaFX, JSF, JPA, and Hibernate, Message queues, Micronaut, OSGi, Project Reactor, Quarkus, Seam, Spring, Struts 2, Tapestry, Template Languages: Velocity and FreeMarker, Thymeleaf, Tiles 3, Non-JVM technologies.
+------------------------------------
+import speech_recognition as sr
+------------------------------
+------------------------------
 import speech_recognition as sr
 ------------------------------
 import pyttsx3
