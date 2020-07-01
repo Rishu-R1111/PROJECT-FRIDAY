@@ -1,0 +1,26 @@
+.BringShoppingItemIcon {
+	max-height: 4.5em;
+	max-width: 4.5em;
+	margin-top: auto;
+	margin-bottom: auto;
+	vertical-align: middle;
+}
+
+.BringShopping .tile{
+	width: 5em;
+	min-width: 5em;
+	height: 6em;
+	box-shadow: none;
+	display: block;
+	margin: 2px;
+	text-align: center;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.BringShoppingTile_imgCont {
+	height: 5em;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+}

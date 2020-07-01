@@ -1,0 +1,19 @@
+{
+	"name": "BringShoppingList",
+	"version": "1.1.5",
+	"icon": "fas fa-shopping-bag",
+	"category": "shopping",
+	"author": "philipp2310",
+	"maintainers": ["maxbachmann", "Psychokiller1888"],
+	"desc": "Maintain your Bring! Shopping list",
+	"aliceMinVersion": "1.0.0-a5",
+	"systemRequirements": [],
+	"pipRequirements": ["BringApi==0.0.5"],
+	"conditions": {
+		"lang": [
+			"en",
+			"de"
+		],
+		"online": true
+	}
+}

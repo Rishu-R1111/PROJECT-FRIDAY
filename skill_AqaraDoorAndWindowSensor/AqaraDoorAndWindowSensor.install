@@ -1,0 +1,25 @@
+{
+    "name": "AqaraDoorAndWindowSensor",
+    "version": "0.0.1",
+    "icon": "fab fa-battle-net",
+    "category": "undefined",
+    "author": "Psychokiller1888",
+    "maintainers": [],
+    "desc": "Connect your aqara door and window sensors to alice. requires zigbee2mqtt",
+    "aliceMinVersion": "1.0.0-b1",
+    "systemRequirements": [
+        ""
+    ],
+    "pipRequirements": [
+        ""
+    ],
+    "conditions": {
+        "lang": [
+            "en"
+        ],
+        "asrArbitraryCapture": true,
+        "skill": [
+            "Zigbee2Mqtt"
+        ]
+    }
+}

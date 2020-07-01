@@ -1,0 +1,16 @@
+{
+	"fromWhatCurrency": [
+		"Welche Währung möchtest du umrechnen?",
+		"Welche Währung",
+		"Klar, aber welche Währung?"
+	],
+	"noServer": [
+		"Leider kann ich die Daten gerade nicht abrufen, bitte versuche es später noch einmal"
+	],
+	"noApiKey": [
+		"Ich kann nichts ohne einen A P I key machen. Bitte füge ihn meiner Konfig hinzu"
+	],
+	"answer": [
+		"{} {} ist {} {}"
+	]
+}

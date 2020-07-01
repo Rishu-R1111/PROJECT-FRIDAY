@@ -1,0 +1,140 @@
+{
+	"respeaker2": {
+		"name": "ReSpeaker 2",
+		"numberOfLeds": 3,
+		"interface": "apa102",
+		"endFrame": 255,
+		"doa": false,
+		"extras": {
+			"buttons": {
+				"button1": {
+					"bcm_gpio": 17,
+					"function": "onButton1"
+				}
+			}
+		}
+	},
+	"respeaker4": {
+		"name": "ReSpeaker 4",
+		"numberOfLeds": 12,
+		"interface": "apa102",
+		"doa": "doa_respeaker_4mic_array",
+		"rate": 16000,
+		"channels": 4,
+		"endFrame": 255
+	},
+	"respeakerMicArrayV2": {
+		"name": "ReSpeaker Mic array v2",
+		"numberOfLeds": 12,
+		"interface": "respeakerMicArrayV2",
+		"doa": "doa_respeaker_6p1_mic_array",
+		"rate": 16000,
+		"channels": 8,
+		"vid": "0x2886",
+		"pid": "0x0018",
+		"endFrame": 0,
+		"extras": {
+			"volume": {
+				"min": 0,
+				"max": 12
+			},
+			"vadLed": true
+		}
+	},
+	"respeakerMicArrayV1": {
+		"name": "ReSpeaker Mic array v1",
+		"numberOfLeds": 12,
+		"interface": "respeakerMicArrayV1",
+		"doa": "doa_respeaker_6p1_mic_array",
+		"rate": 16000,
+		"channels": 8,
+		"vid": "0x2886",
+		"pid": "0x0007",
+		"endFrame": 0,
+		"extras": {
+			"volume": {
+				"min": 0,
+				"max": 12
+			},
+			"vadLed": true
+		}
+	},
+	"respeaker6MicArray": {
+		"name": "ReSpeaker 6-Mic Circular Array",
+		"numberOfLeds": 12,
+		"interface": "apa102",
+		"doa": "doa_respeaker_v2_6mic_array",
+		"rate": 16000,
+		"channels": 8,
+		"endFrame": 255,
+		"extras": {
+			"buttons": {
+				"button1": {
+					"bcm_gpio": 26,
+					"function": "onButton1"
+				}
+			}
+		}
+	},
+	"respeaker7MicArray": {
+		"name": "ReSpeaker 7-Mic Array",
+		"numberOfLeds": 12,
+		"interface": "respeaker7MicArray",
+		"doa": false,
+		"extras": {
+			"volume": {
+				"min": 0,
+				"max": 12
+			}
+		}
+	},
+	"respeakerCoreV2": {
+		"name": "Respeaker Core v2",
+		"numberOfLeds": 12,
+		"interface": "apa102",
+		"doa": "doa_respeaker_v2_6mic_array",
+		"rate": 16000,
+		"channels": 8,
+		"endFrame": 0
+	},
+  	"neoPixelsSK6812RGBW": {
+		"name": "Adafruit NeoPixels SK6812 RGBW",
+		"numberOfLeds": 12,
+		"interface": "neopixels",
+		"gpioPin": 10,
+		"type": "SK6812_RGBW"
+	},
+  	"neoPixelsWS2812RGB": {
+		"name": "Adafruit NeoPixels WS2812 RGB",
+		"numberOfLeds": 12,
+		"interface": "neopixels",
+		"gpioPin": 10,
+		"type": "WS2812"
+	},
+	"matrixvoice": {
+		"name": "Matrix Voice",
+		"numberOfLeds": 18,
+		"interface": "matrixvoice"
+	},
+	"matrixcreator": {
+		"name": "Matrix Creator",
+		"numberOfLeds": 35,
+		"interface": "matrixvoice"
+	},
+	"googleAIY": {
+		"__comment__": "Use the broadcom gpio number, not the physical pin number!",
+		"name": "Google AIY",
+		"numberOfLeds": 1,
+		"interface": "pureGPIO",
+		"activeHigh": true,
+		"gpios": [25]
+	},
+	"puregpio": {
+		"__comment__": "Use the broadcom gpio number, not the physical pin number!",
+		"name": "Pure GPIO",
+		"numberOfLeds": 3,
+		"interface": "pureGPIO",
+		"activeHigh": true,
+		"gpios": [14, 15, 18]
+	}
+}

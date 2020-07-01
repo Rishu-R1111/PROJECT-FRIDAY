@@ -1,0 +1,1088 @@
+{
+	"skill": "FreeCurrencyConverterDotCom",
+	"icon": "calculator",
+	"description": "L’utilisateur convertit les devises du monde",
+	"slotTypes": [
+		{
+			"name": "Currency",
+			"matchingStrictness": null,
+			"automaticallyExtensible": false,
+			"useSynonyms": true,
+			"values": [
+				{
+					"value": "CLP",
+					"synonyms": [
+						"Peso Chilien"
+					]
+				},
+				{
+					"value": "AFN",
+					"synonyms": [
+						"Afghani Afghan"
+					]
+				},
+				{
+					"value": "EGP",
+					"synonyms": [
+						"Livre Egyptienne"
+					]
+				},
+				{
+					"value": "SVC",
+					"synonyms": [
+						"Colon Salvadorien"
+					]
+				},
+				{
+					"value": "SAR",
+					"synonyms": [
+						"Rial Saoudien"
+					]
+				},
+				{
+					"value": "GNF",
+					"synonyms": [
+						"Franc Guinéen"
+					]
+				},
+				{
+					"value": "MUR",
+					"synonyms": [
+						"Roupie Mauritienne"
+					]
+				},
+				{
+					"value": "IRR",
+					"synonyms": [
+						"Rial Iranien"
+					]
+				},
+				{
+					"value": "GYD",
+					"synonyms": [
+						"Dollar Guyannais"
+					]
+				},
+				{
+					"value": "AED",
+					"synonyms": [
+						"Dirham des Emirats arabes unis"
+					]
+				},
+				{
+					"value": "JPY",
+					"synonyms": [
+						"Yen Japonais"
+					]
+				},
+				{
+					"value": "ETB",
+					"synonyms": [
+						"Birr Ethiopien"
+					]
+				},
+				{
+					"value": "ZMW",
+					"synonyms": [
+						"Kwacha Zambien"
+					]
+				},
+				{
+					"value": "ALL",
+					"synonyms": [
+						"Lek Albanais"
+					]
+				},
+				{
+					"value": "TND",
+					"synonyms": [
+						"Dinar Tunisien"
+					]
+				},
+				{
+					"value": "AOA",
+					"synonyms": [
+						"Kwanza Angolais"
+					]
+				},
+				{
+					"value": "VUV",
+					"synonyms": [
+						"Vatu Vanuatais"
+					]
+				},
+				{
+					"value": "ZWD",
+					"synonyms": [
+						"Dollar Zimbabwéen"
+					]
+				},
+				{
+					"value": "EUR",
+					"synonyms": [
+						"Euro",
+						"Euros"
+					]
+				},
+				{
+					"value": "BAM",
+					"synonyms": [
+						"Mark Convertible Bosniaque"
+					]
+				},
+				{
+					"value": "CDF",
+					"synonyms": [
+						"Franc Congolais"
+					]
+				},
+				{
+					"value": "TVD",
+					"synonyms": [
+						"Dollar des Tuvalu"
+					]
+				},
+				{
+					"value": "ILS",
+					"synonyms": [
+						"Nouveau Shekel Israélien"
+					]
+				},
+				{
+					"value": "NOK",
+					"synonyms": [
+						"Couronne Norvégienne"
+					]
+				},
+				{
+					"value": "ZAR",
+					"synonyms": [
+						"Rand Sud-Africain"
+					]
+				},
+				{
+					"value": "PGK",
+					"synonyms": [
+						"Kina de Papouasie-Nouvelle-Guinée"
+					]
+				},
+				{
+					"value": "XDR",
+					"synonyms": [
+						"Droits de tirage spéciaux du Fonds Monétaire International"
+					]
+				},
+				{
+					"value": "AUD",
+					"synonyms": [
+						"Dollar Australien"
+					]
+				},
+				{
+					"value": "HNL",
+					"synonyms": [
+						"Lempira Hondurien"
+					]
+				},
+				{
+					"value": "DKK",
+					"synonyms": [
+						"Couronne Danoise"
+					]
+				},
+				{
+					"value": "MGA",
+					"synonyms": [
+						"Ariary Malgache"
+					]
+				},
+				{
+					"value": "IDR",
+					"synonyms": [
+						"Roupie Indonésienne"
+					]
+				},
+				{
+					"value": "CUP",
+					"synonyms": [
+						"Peso Cubain"
+					]
+				},
+				{
+					"value": "NIO",
+					"synonyms": [
+						"Córdoba Oro Nicaraguayen"
+					]
+				},
+				{
+					"value": "LAK",
+					"synonyms": [
+						"Kip laotien"
+					]
+				},
+				{
+					"value": "TMT",
+					"synonyms": [
+						"Manat Turkmène"
+					]
+				},
+				{
+					"value": "GTQ",
+					"synonyms": [
+						"Quetzal Guatémaltèque"
+					]
+				},
+				{
+					"value": "YER",
+					"synonyms": [
+						"Rial Yéménite"
+					]
+				},
+				{
+					"value": "TTD",
+					"synonyms": [
+						"Dollar Trinité-et-Tobago"
+					]
+				},
+				{
+					"value": "GEL",
+					"synonyms": [
+						"Lari Géorgien"
+					]
+				},
+				{
+					"value": "MAD",
+					"synonyms": [
+						"Dirham Marocain"
+					]
+				},
+				{
+					"value": "NZD",
+					"synonyms": [
+						"Dollar néo-zélandais"
+					]
+				},
+				{
+					"value": "BSD",
+					"synonyms": [
+						"Dollar des Bahamas"
+					]
+				},
+				{
+					"value": "GGP",
+					"synonyms": [
+						"Livre de Guernsey"
+					]
+				},
+				{
+					"value": "GHS",
+					"synonyms": [
+						"Cédi Ghanéen"
+					]
+				},
+				{
+					"value": "LKR",
+					"synonyms": [
+						"Roupie Srilankaise"
+					]
+				},
+				{
+					"value": "THB",
+					"synonyms": [
+						"Baht Thaïlandais"
+					]
+				},
+				{
+					"value": "OMR",
+					"synonyms": [
+						"Rial Omanais"
+					]
+				},
+				{
+					"value": "MKD",
+					"synonyms": [
+						"Denar Macédonien"
+					]
+				},
+				{
+					"value": "LYD",
+					"synonyms": [
+						"Dinar Libyen"
+					]
+				},
+				{
+					"value": "USD",
+					"synonyms": [
+						"Dollar",
+						"Dollar Américain"
+					]
+				},
+				{
+					"value": "CNY",
+					"synonyms": [
+						"Yuan Renminbi Chinois",
+						"Yuan Chinois",
+						"Yuan"
+					]
+				},
+				{
+					"value": "STN",
+					"synonyms": [
+						"Dobra de la République démocratique de São Tomé et Príncipe",
+						"Dora"
+					]
+				},
+				{
+					"value": "DZD",
+					"synonyms": [
+						"Dinar Algérien"
+					]
+				},
+				{
+					"value": "PHP",
+					"synonyms": [
+						"Peso Philippin"
+					]
+				},
+				{
+					"value": "RWF",
+					"synonyms": [
+						"Franc Rwandais"
+					]
+				},
+				{
+					"value": "SGD",
+					"synonyms": [
+						"Dollar de Singapour"
+					]
+				},
+				{
+					"value": "HKD",
+					"synonyms": [
+						"Dollar de Hong Kong"
+					]
+				},
+				{
+					"value": "XCD",
+					"synonyms": [
+						"Dollar des Caraïbes Orientales"
+					]
+				},
+				{
+					"value": "ARS",
+					"synonyms": [
+						"Peso Argentain",
+						"Pesos Argentain"
+					]
+				},
+				{
+					"value": "FKP",
+					"synonyms": [
+						"Livre des îles Malouines"
+					]
+				},
+				{
+					"value": "TWD",
+					"synonyms": [
+						"Nouveau Dollar Taïwanais"
+					]
+				},
+				{
+					"value": "AZN",
+					"synonyms": [
+						"Manat Azéri"
+					]
+				},
+				{
+					"value": "GIP",
+					"synonyms": [
+						"Livre de Gibraltar"
+					]
+				},
+				{
+					"value": "INR",
+					"synonyms": [
+						"Roupie Indienne"
+					]
+				},
+				{
+					"value": "BZD",
+					"synonyms": [
+						"Dollar Brélizien"
+					]
+				},
+				{
+					"value": "SHP",
+					"synonyms": [
+						"Livre de Sainte-Hélène"
+					]
+				},
+				{
+					"value": "BTN",
+					"synonyms": [
+						"Ngultrum du Bhoutan"
+					]
+				},
+				{
+					"value": "CHF",
+					"synonyms": [
+						"Franc Suisse"
+					]
+				},
+				{
+					"value": "HTG",
+					"synonyms": [
+						"Gourde Haïtienne"
+					]
+				},
+				{
+					"value": "SPL",
+					"synonyms": [
+						"Seborga Luigino"
+					]
+				},
+				{
+					"value": "BMD",
+					"synonyms": [
+						"Dollar des Bermudes"
+					]
+				},
+				{
+					"value": "RON",
+					"synonyms": [
+						"Leu Roumain"
+					]
+				},
+				{
+					"value": "IMP",
+					"synonyms": [
+						"Livre Mannoise"
+					]
+				},
+				{
+					"value": "HUF",
+					"synonyms": [
+						"Forint hongrois",
+						"Monnaie Hongroise"
+					]
+				},
+				{
+					"value": "SLL",
+					"synonyms": [
+						"Leone",
+						"Leone de Sierra Leone"
+					]
+				},
+				{
+					"value": "RSD",
+					"synonyms": [
+						"Dinar Serbe"
+					]
+				},
+				{
+					"value": "BWP",
+					"synonyms": [
+						"Pula Botswanais"
+					]
+				},
+				{
+					"value": "VND",
+					"synonyms": [
+						"Dông Vietnamien"
+					]
+				},
+				{
+					"value": "BYN",
+					"synonyms": [
+						"Rouble Biélorusse",
+						"Rouble"
+					]
+				},
+				{
+					"value": "SZL",
+					"synonyms": [
+						"Lilangeni du Swaziland"
+					]
+				},
+				{
+					"value": "KPW",
+					"synonyms": [
+						"Won Nord-Coréen"
+					]
+				},
+				{
+					"value": "PEN",
+					"synonyms": [
+						"Sol Péruvien"
+					]
+				},
+				{
+					"value": "MXN",
+					"synonyms": [
+						"Peso Mexicain"
+					]
+				},
+				{
+					"value": "XPF",
+					"synonyms": [
+						"Comptoirs Français du Pacifique Franc",
+						"Franc CFP",
+						"CPF"
+					]
+				},
+				{
+					"value": "PKR",
+					"synonyms": [
+						"Roupie Pakistanaise"
+					]
+				},
+				{
+					"value": "XAF",
+					"synonyms": [
+						"Franc CFA"
+					]
+				},
+				{
+					"value": "BRL",
+					"synonyms": [
+						"Réal Brésilien"
+					]
+				},
+				{
+					"value": "SDG",
+					"synonyms": [
+						"Livre Soudanaise"
+					]
+				},
+				{
+					"value": "MOP",
+					"synonyms": [
+						"Pataca de Macao",
+						"Pataca"
+					]
+				},
+				{
+					"value": "CAD",
+					"synonyms": [
+						"Dollar Canadien",
+						"Dollars Canadiens"
+					]
+				},
+				{
+					"value": "KES",
+					"synonyms": [
+						"Shilling kényan",
+						"Shilling Kényan"
+					]
+				},
+				{
+					"value": "MNT",
+					"synonyms": [
+						"Tugrik Mongol"
+					]
+				},
+				{
+					"value": "LRD",
+					"synonyms": [
+						"Dollar Libérien"
+					]
+				},
+				{
+					"value": "CUC",
+					"synonyms": [
+						"Peso Cubain Convertible"
+					]
+				},
+				{
+					"value": "PLN",
+					"synonyms": [
+						"Zloty Polonais"
+					]
+				},
+				{
+					"value": "LSL",
+					"synonyms": [
+						"Lesotho Loti"
+					]
+				},
+				{
+					"value": "DOP",
+					"synonyms": [
+						"Peso Dominicain"
+					]
+				},
+				{
+					"value": "BDT",
+					"synonyms": [
+						"Taka Bangladeshi"
+					]
+				},
+				{
+					"value": "IQD",
+					"synonyms": [
+						"Dinar Irakien"
+					]
+				},
+				{
+					"value": "LBP",
+					"synonyms": [
+						"Livre Libanaise"
+					]
+				},
+				{
+					"value": "NAD",
+					"synonyms": [
+						"Dollar Namibien"
+					]
+				},
+				{
+					"value": "FJD",
+					"synonyms": [
+						"Dollar Fidjien"
+					]
+				},
+				{
+					"value": "GBP",
+					"synonyms": [
+						"Livre Anglaise",
+						"Livre Sterling"
+					]
+				},
+				{
+					"value": "SEK",
+					"synonyms": [
+						"Couronne Suédoise",
+						"Monnaie Suédoise"
+					]
+				},
+				{
+					"value": "TZS",
+					"synonyms": [
+						"Shilling Tanzanien"
+					]
+				},
+				{
+					"value": "BBD",
+					"synonyms": [
+						"Dollar Barbadien",
+						"Dollars Barbadien"
+					]
+				},
+				{
+					"value": "MMK",
+					"synonyms": [
+						"Kyat Myanmarais"
+					]
+				},
+				{
+					"value": "SYP",
+					"synonyms": [
+						"Livre Syrienne"
+					]
+				},
+				{
+					"value": "CZK",
+					"synonyms": [
+						"Couronne Tchèque"
+					]
+				},
+				{
+					"value": "GMD",
+					"synonyms": [
+						"Dalasi Gambien"
+					]
+				},
+				{
+					"value": "BGN",
+					"synonyms": [
+						"Lev Bulgare"
+					]
+				},
+				{
+					"value": "VEF",
+					"synonyms": [
+						"Bolívar Vénézuélien"
+					]
+				},
+				{
+					"value": "AWG",
+					"synonyms": [
+						"Aruba Guilder"
+					]
+				},
+				{
+					"value": "XOF",
+					"synonyms": [
+						"Communauté Financière Africaine Franc",
+						"Franc CFA (BCEAO)"
+					]
+				},
+				{
+					"value": "PAB",
+					"synonyms": [
+						"Balboa Panaméen"
+					]
+				},
+				{
+					"value": "UZS",
+					"synonyms": [
+						"Sum Ouzbek"
+					]
+				},
+				{
+					"value": "TOP",
+					"synonyms": [
+						"Pa'anga Tonga"
+					]
+				},
+				{
+					"value": "KRW",
+					"synonyms": [
+						"Won Sud-Coréen"
+					]
+				},
+				{
+					"value": "JMD",
+					"synonyms": [
+						"Dollar Jamaïcain"
+					]
+				},
+				{
+					"value": "KHR",
+					"synonyms": [
+						"Riel Cambodgien"
+					]
+				},
+				{
+					"value": "COP",
+					"synonyms": [
+						"Peso Colombien"
+					]
+				},
+				{
+					"value": "TRY",
+					"synonyms": [
+						"Livre Turque"
+					]
+				},
+				{
+					"value": "SRD",
+					"synonyms": [
+						"Dollar Surinamais"
+					]
+				},
+				{
+					"value": "ANG",
+					"synonyms": [
+						"Florin des Antilles Néerlandaises",
+						"Monnaie des Antilles Néerlandaises"
+					]
+				},
+				{
+					"value": "KWD",
+					"synonyms": [
+						"Dinar Koweïtien"
+					]
+				},
+				{
+					"value": "SCR",
+					"synonyms": [
+						"Roupie des Seychelles"
+					]
+				},
+				{
+					"value": "BIF",
+					"synonyms": [
+						"Franc Burundais"
+					]
+				},
+				{
+					"value": "NGN",
+					"synonyms": [
+						"Naira Nigérian"
+					]
+				},
+				{
+					"value": "MWK",
+					"synonyms": [
+						"Malawi Kwacha"
+					]
+				},
+				{
+					"value": "RUB",
+					"synonyms": [
+						"Rouble Russe",
+						"Roubles Russe",
+						"Monnaie Russe"
+					]
+				},
+				{
+					"value": "HRK",
+					"synonyms": [
+						"Kuna Croate"
+					]
+				},
+				{
+					"value": "TJS",
+					"synonyms": [
+						"Tajikistan Somoni",
+						"Tadjikistan Somoni"
+					]
+				},
+				{
+					"value": "CRC",
+					"synonyms": [
+						"Colón Costaricain",
+						"Colon Costaricain",
+						"Monnaie Costaricaine",
+						"Monnaie Costarica"
+					]
+				},
+				{
+					"value": "UYU",
+					"synonyms": [
+						"Peso Uruguayen"
+					]
+				},
+				{
+					"value": "DJF",
+					"synonyms": [
+						"Franc Djiboutien"
+					]
+				},
+				{
+					"value": "BOB",
+					"synonyms": [
+						"Bolíviano Bolivien",
+						"Boliviano Bolivien"
+					]
+				},
+				{
+					"value": "MZN",
+					"synonyms": [
+						"Metical Mozambicain"
+					]
+				},
+				{
+					"value": "MRU",
+					"synonyms": [
+						"Ouguiya Mauritanien"
+					]
+				},
+				{
+					"value": "JEP",
+					"synonyms": [
+						"Livre de Jersey"
+					]
+				},
+				{
+					"value": "SOS",
+					"synonyms": [
+						"Shilling de Somalie"
+					]
+				},
+				{
+					"value": "KYD",
+					"synonyms": [
+						"Dollar des îles Caïmans",
+						"Dollars des îles Caïmans",
+						"Monnaie des îles Caïmans"
+					]
+				},
+				{
+					"value": "BHD",
+					"synonyms": [
+						"Dinar Bahreïni",
+						"Dinar Bahreini"
+					]
+				},
+				{
+					"value": "BND",
+					"synonyms": [
+						"Dollar de Bruneian"
+					]
+				},
+				{
+					"value": "SBD",
+					"synonyms": [
+						"Dollar des Iles Salomon"
+					]
+				},
+				{
+					"value": "ISK",
+					"synonyms": [
+						"Couronne Islandaise",
+						"Couronnes Islandaises",
+						"Monnaie Islandaise"
+					]
+				},
+				{
+					"value": "NPR",
+					"synonyms": [
+						"Roupie Népalaise"
+					]
+				},
+				{
+					"value": "CVE",
+					"synonyms": [
+						"Escudo Capverdien"
+					]
+				},
+				{
+					"value": "MYR",
+					"synonyms": [
+						"Ringgit Malais"
+					]
+				},
+				{
+					"value": "MVR",
+					"synonyms": [
+						"Rufiyaa des Maldives"
+					]
+				},
+				{
+					"value": "KMF",
+					"synonyms": [
+						"Franc Comorien"
+					]
+				},
+				{
+					"value": "MDL",
+					"synonyms": [
+						"Leu Moldove"
+					]
+				},
+				{
+					"value": "PYG",
+					"synonyms": [
+						"Guaraní Paraguayen",
+						"Guarani Paraguayen"
+					]
+				},
+				{
+					"value": "AMD",
+					"synonyms": [
+						"Dram Arménien"
+					]
+				},
+				{
+					"value": "QAR",
+					"synonyms": [
+						"Riyal Qatari"
+					]
+				},
+				{
+					"value": "KZT",
+					"synonyms": [
+						"Tenge Kazakh"
+					]
+				},
+				{
+					"value": "KGS",
+					"synonyms": [
+						"Som du Kirghizistan"
+					]
+				},
+				{
+					"value": "UGX",
+					"synonyms": [
+						"Shilling Ugandais"
+					]
+				},
+				{
+					"value": "JOD",
+					"synonyms": [
+						"Dinar Jordanien"
+					]
+				},
+				{
+					"value": "UAH",
+					"synonyms": [
+						"Hryvnia Ukrainienne"
+					]
+				},
+				{
+					"value": "ERN",
+					"synonyms": [
+						"Nakfa",
+						"Nakfa Erythréen"
+					]
+				},
+				{
+					"value": "WST",
+					"synonyms": [
+						"Tala",
+						"Tala de Samoa"
+					]
+				}
+			]
+		}
+	],
+	"intents": [
+		{
+			"name": "AnswerCurrency",
+			"description": "Utilisé lorsque l’utilisateur ne doit répondre qu’à une devise. A utiliser avec un filtre d’intention !",
+			"enabledByDefault": false,
+			"utterances": [
+				"en {forint hongrois:=>Currency} s'il te plaît",
+				"en {forint hongrois:=>Currency} s'il vous plaît",
+				"en {forint hongrois:=>Currency} s'il te plait",
+				"en {forint hongrois:=>Currency} s'il vous plait",
+				"en {forint hongrois:=>Currency}",
+				"{forint hongrois:=>Currency} s'il te plaît",
+				"{forint hongrois:=>Currency} s'il vous plaît",
+				"{forint hongrois:=>Currency} s'il te plait",
+				"{forint hongrois:=>Currency} s'il vous plait"
+			],
+			"slots": [
+				{
+					"name": "Currency",
+					"description": null,
+					"required": false,
+					"type": "Currency",
+					"missingQuestion": ""
+				}
+			]
+		},
+		{
+			"name": "ConvertCurrency",
+			"description": "Demander de convertir n'importe quelle devise en n'importe quelle autre du monde",
+			"enabledByDefault": true,
+			"utterances": [
+				"combien fait {5972:=>Amount} {IDR:=>FromCurrency} en {INR:=>ToCurrency}",
+				"peux-tu convertir {5972:=>Amount} {IDR:=>FromCurrency} en {INR:=>ToCurrency}",
+				"s'il te plaît converti {5972:=>Amount} {IDR:=>FromCurrency} en {INR:=>ToCurrency}",
+				"converti {5972:=>Amount} {IDR:=>FromCurrency} en {INR:=>ToCurrency}",
+				"converti {5972:=>Amount} {IDR:=>FromCurrency} en {INR:=>ToCurrency} s'il te plaît",
+				"change {5972:=>Amount} {IDR:=>FromCurrency} en {INR:=>ToCurrency}",
+				"change {5972:=>Amount} {IDR:=>FromCurrency} en {INR:=>ToCurrency} s'il te plaît",
+				"peux-tu changer {5972:=>Amount} {IDR:=>FromCurrency} en {INR:=>ToCurrency}",
+				"peux-tu changer {5972:=>Amount} {IDR:=>FromCurrency} en {INR:=>ToCurrency} s'il te plaît",
+				"ça fait combien {5972:=>Amount} {IDR:=>FromCurrency} en {INR:=>ToCurrency}"
+			],
+			"slots": [
+				{
+					"name": "ToCurrency",
+					"description": null,
+					"required": false,
+					"type": "Currency",
+					"missingQuestion": ""
+				},
+				{
+					"name": "FromCurrency",
+					"description": null,
+					"required": false,
+					"type": "Currency",
+					"missingQuestion": ""
+				},
+				{
+					"name": "Amount",
+					"description": null,
+					"required": false,
+					"type": "snips/number",
+					"missingQuestion": ""
+				}
+			]
+		}
+	]
+}

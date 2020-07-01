@@ -1,0 +1,7 @@
+{
+    "skill": "AqaraDoorAndWindowSensor",
+    "icon": "time",
+    "description": "Connect your aqara door and window sensors to alice. requires zigbee2mqtt",
+    "slotTypes": [],
+    "intents": []
+}
