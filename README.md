@@ -23,9 +23,11 @@ Yes, u can get the latest info about the sunsex graph , this Ai can also peridic
 <img src="https://www.h2o.ai/wp-content/themes/h2o2018/templates/dist/images/homepage/imac_pro_mockup.png" width="95%" height="auto">
 </p>
 
-
+-------------------------------------
+Ai in blockchain      source:Cortex
+------------------------------------
    <p align="center">
-<img src="https://i.pinimg.com/originals/86/86/46/8686467b4948402603ed643d47d1ec09.jpg" width="95%" height="auto">
+<img src="https://hackernoon.com/hn-images/1*KttGYdEfhQN7fVbF99dHXQ.jpeg" width="95%" height="auto">
 </p>
 
 
