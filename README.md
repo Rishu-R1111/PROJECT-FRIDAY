@@ -47,6 +47,32 @@ Ai insource:Cortex
 </p>
 
 -------------------------------------
+Added SCISSOR PAPER ROCK GAME – PYTHON
+------------------------------------
+   <p align="center">
+<img src="https://aihubprojects.com/wp-content/uploads/2019/10/Screenshot-from-2019-01-07-22-11-50.png" width="95%" height="auto">
+</p>
+
+-------------------------------------
+
+------------------------------------
+   <p align="center">
+<img src="" width="95%" height="auto">
+</p>
+-------------------------------------
+
+------------------------------------
+   <p align="center">
+<img src="" width="95%" height="auto">
+</p>
+-------------------------------------
+
+------------------------------------
+   <p align="center">
+<img src="" width="95%" height="auto">
+</p>
+
+-------------------------------------
  Ogui v0.2.0
 ------------------------------------ 
                        is supported Now
