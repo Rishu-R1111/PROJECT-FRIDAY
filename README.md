@@ -9,7 +9,9 @@ HeY, M Rishu , I am developing this project with using python more like the Goog
 <img src="https://vignette.wikia.nocookie.net/ironman/images/0/03/F.R.I.D.A.Y.jpg/revision/latest?cb=20191210194050" width="95%" height="auto">
 </p
 
-
+-------------------------------------
+Provides an easy way to control your leds in an Hermes environment
+------------------------------------
 
    <p align="center">
 <img src="https://miro.medium.com/max/2800/1*qij9GNDjQhJP4Kh81z-SsQ.png" width="95%" height="auto">
@@ -24,7 +26,7 @@ Yes, u can get the latest info about the sunsex graph , this Ai can also peridic
 </p>
 
 -------------------------------------
-Ai in blockchain      source:Cortex
+Ai insource:Cortex
 ------------------------------------
    <p align="center">
 <img src="https://hackernoon.com/hn-images/1*KttGYdEfhQN7fVbF99dHXQ.jpeg" width="95%" height="auto">
