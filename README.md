@@ -50,7 +50,7 @@ Ai insource:Cortex
 Added SCISSOR PAPER ROCK GAME – PYTHON
 ------------------------------------
    <p align="center">
-<img src="https://aihubprojects.com/wp-content/uploads/2019/10/Screenshot-from-2019-01-07-22-11-50.png" width="95%" height="auto">
+<img src="https://aihubprojects.com/wp-content/uploads/2019/10/Screenshot-from-2019-01-07-22-11-50.png" width="75%" height="auto">
 </p>
 
 -------------------------------------
