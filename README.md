@@ -7,15 +7,15 @@ you need to install few packages
 ------------------------------------
 
 ------------------------------------
-better VSC integration trackers, KOTLIN JVL-based project Application, typecasted in XML  AspectJ, CDI,  EJB, Grails, GWT, Helidon, Java EE, JavaFX, JSF, JPA, and Hibernate, Message queues, Micronaut, OSGi, Project Reactor, Quarkus, Seam, Spring, Struts 2, Tapestry, Template Languages: Velocity and FreeMarker, Thymeleaf, Tiles 3, Non-JVM technologies.
--------------------------------------
-
-------------------------------------
 HeY, M Rishu , 
                I am developing this project with using python more like the Google voice assistant. this was completed 40%. 
 Soon I Will be upgrading it fully based on Artifitial intelligence-Machine leaning like adaptibility.
 This project is about voice assistant like google ,amazon echo.
 If u guys have any good suggesstion please let me know. i can try definatly.
+
+-------------------------------------
+
+------------------------------------
 
 ------------------------------------
 
