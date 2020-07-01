@@ -1,0 +1,10 @@
+<application>
+  <component name="UISettings">
+    <option name="COLOR_BLINDNESS" value="deuteranopia" />
+    <option name="compactTreeIndents" value="true" />
+    <option name="OPEN_TABS_AT_THE_END" value="true" />
+    <option name="PIN_FIND_IN_PATH_POPUP" value="true" />
+    <option name="SCROLL_TAB_LAYOUT_IN_EDITOR" value="false" />
+    <option name="WIDESCREEN_SUPPORT" value="true" />
+  </component>
+</application>

@@ -1,0 +1,7 @@
+<templateSet group="Python">
+  <template name="super" value="super().$method$($end$)" description="'super(...)' call" toReformat="false" toShortenFQNames="true">
+    <variable name="method" expression="pyFunctionName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

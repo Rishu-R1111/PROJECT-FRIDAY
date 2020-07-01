@@ -1,0 +1,19 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="192.168.1.150" id="514b16bc-bf61-4f9e-8292-a222de38a787" port="22" customName="Project Alice - Core dev" nameFormat="CUSTOM" username="pi" />
+      <sshConfig authType="PASSWORD" host="aliceoffice" id="e92c630c-cf52-4319-a2ad-a244dd76fb90" port="22" customName="Alice - Office" nameFormat="CUSTOM" username="pi" />
+      <sshConfig authType="PASSWORD" host="alicebedroom-3" id="fd1b4ea4-e492-42bd-ac28-57ca4517cdbb" port="22" customName="Alice - Bedroom" nameFormat="CUSTOM" username="pi" />
+      <sshConfig authType="PASSWORD" host="alicelivingroom" id="a737fab8-3623-49ef-b6ab-a74a3d382e29" port="22" customName="Alice - Living room" nameFormat="CUSTOM" username="pi" />
+      <sshConfig authType="PASSWORD" host="192.168.1.154" id="5549c645-be83-497f-880a-9e678c08afd2" port="22" customName="Matrix Creator" nameFormat="CUSTOM" username="pi" />
+      <sshConfig authType="PASSWORD" host="192.168.1.164" id="b1354260-0cd1-4e91-94b7-9518fef5a5f2" port="22" customName="pi@192.168.1.164:22" nameFormat="CUSTOM" username="pi" />
+      <sshConfig authType="PASSWORD" host="192.168.1.127" id="422f7162-1af0-449a-8c96-ec28464ab332" port="22" customName="pi@192.168.1.127:22" nameFormat="CUSTOM" username="pi" />
+      <sshConfig authType="PASSWORD" host="192.168.2.188" id="e660a4fe-b5ed-4037-a49b-2a1b9c38cacb" port="22" customName="ProjectAlice - Bel-Air" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="192.168.1.168" id="ebb56224-eb14-4945-8a5a-ce4d349eb825" port="22" customName="ProjectAliceBuster" nameFormat="CUSTOM" username="pi" />
+      <sshConfig authType="PASSWORD" host="192.168.1.160" id="8a2e1d61-baa7-49c3-996a-7b36e1a195d3" port="22" customName="pi@192.168.1.154:22" nameFormat="CUSTOM" username="pi" />
+      <sshConfig host="localhost" id="594490f9-3e52-493c-bd25-323402b4d317" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" />
+      <sshConfig host="192.168.1.154" id="58308a3e-5200-4a83-b30f-e3a1717ff8df" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="pi" />
+      <sshConfig authType="PASSWORD" host="192.168.1.160" id="b36abc5b-c2f1-4398-aef9-5b42c958d146" port="22" nameFormat="DESCRIPTIVE" username="pi" />
+    </configs>
+  </component>
+</application>

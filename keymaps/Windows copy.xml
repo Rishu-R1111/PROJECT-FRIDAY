@@ -1,0 +1,6 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="CheckinProject" />
+  <action id="StringManipulation.AlignToColumns">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
+</keymap>

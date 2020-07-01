@@ -1,0 +1,7 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="Python class.py" reformat="true" live-template-enabled="true" />
+    </default_templates>
+  </component>
+</application>

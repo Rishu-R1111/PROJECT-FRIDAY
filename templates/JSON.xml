@@ -1,0 +1,17 @@
+<templateSet group="JSON">
+  <template name="intent" value="{&#10;&#9;&quot;name&quot;: &quot;AddNewUser&quot;,&#10;&#9;&quot;description&quot;: &quot;User adds a new user&quot;,&#10;&#9;&quot;enabledByDefault&quot;: false,&#10;&#9;&quot;utterances&quot;: [&#10;&#9;&#9;&quot;&quot;&#10;&#9;],&#10;&#9;&quot;slots&quot;: [&#10;&#9;&#9;{&#10;&#9;&#9;&#9;&quot;name&quot;: &quot;Less&quot;,&#10;&#9;&#9;&#9;&quot;description&quot;: null,&#10;&#9;&#9;&#9;&quot;required&quot;: false,&#10;&#9;&#9;&#9;&quot;type&quot;: &quot;Less&quot;,&#10;&#9;&#9;&#9;&quot;missingQuestion&quot;: &quot;&quot;&#10;&#9;&#9;}&#10;&#9;]&#10;}" description="Adds a new intent in the json file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="slotdef" value="{&#10;&#9;&quot;name&quot;: &quot;More&quot;,&#10;&#9;&quot;matchingStrictness&quot;: null,&#10;&#9;&quot;automaticallyExtensible&quot;: true,&#10;&#9;&quot;useSynonyms&quot;: true,&#10;&#9;&quot;values&quot;: [&#10;&#9;&#9;{&#10;&#9;&#9;&#9;&quot;value&quot;: &quot;more&quot;,&#10;&#9;&#9;&#9;&quot;synonyms&quot;: [&#10;&#9;&#9;&#9;&#9;&quot;&quot;&#10;&#9;&#9;&#9;]&#10;&#9;&#9;}&#10;&#9;]&#10;}" description="Add a new slot in the json file" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="slot" value="{&#10;&#9;&quot;name&quot;: &quot;UserAccessLevel&quot;,&#10;&#9;&quot;description&quot;: null,&#10;&#9;&quot;required&quot;: false,&#10;&#9;&quot;type&quot;: &quot;UserAccessLevel&quot;,&#10;&#9;&quot;missingQuestion&quot;: &quot;&quot;&#10;}" description="Inserts a slot in the intent definition" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+</templateSet>

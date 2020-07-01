@@ -1,0 +1,80 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b42824f7-01fa-4ba6-983b-3b09066f2b43" name="Project Alice - Core dev" url="http://192.168.1.150">
+        <fileTransfer rootFolder="/home/pi" accessType="SFTP" host="192.168.1.150" port="22" sshConfigId="514b16bc-bf61-4f9e-8292-a222de38a787" sshConfig="Project Alice - Core dev">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="66672dba-890e-4071-ab59-8def95cb7f25" name="Alice - Office" url="http://aliceoffice">
+        <fileTransfer rootFolder="/home/pi" accessType="SFTP" host="aliceoffice" port="22" sshConfigId="e92c630c-cf52-4319-a2ad-a244dd76fb90" sshConfig="Alice - Office">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ebe851e8-0263-4c99-9be1-3c204ba809a4" name="Alice - Bedroom" url="http://alicebedroom-3">
+        <fileTransfer rootFolder="/home/pi" accessType="SFTP" host="alicebedroom-3" port="22" sshConfigId="fd1b4ea4-e492-42bd-ac28-57ca4517cdbb" sshConfig="Alice - Bedroom">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="a26f677d-a36c-46bd-8fed-8e71ea174d32" name="Alice - Living room" url="http://alicelivingroom">
+        <fileTransfer rootFolder="/home/pi" accessType="SFTP" host="alicelivingroom" port="22" sshConfigId="a737fab8-3623-49ef-b6ab-a74a3d382e29" sshConfig="Alice - Living room">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="e8c15be5-a2ed-4573-b8d5-5190d4bb989a" name="Alice - Second room" url="http://192.168.1.160">
+        <fileTransfer rootFolder="/home/pi" accessType="SFTP" sshConfigId="031c0d69-ac28-4c53-a678-294f51d9288e" sshConfig="Alice - Dev sat">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="188b44bb-1fd3-4900-865a-316396624ca7" name="Matrix Creator" url="http:///">
+        <fileTransfer accessType="SFTP" host="192.168.1.154" port="22" sshConfigId="5549c645-be83-497f-880a-9e678c08afd2" sshConfig="Matrix Creator" />
+      </webServer>
+      <webServer id="4337cf59-4a39-41d3-a11d-286c2c2e9f64" name="pi@192.168.1.164:22" url="http:///">
+        <fileTransfer accessType="SFTP" host="192.168.1.164" port="22" sshConfigId="b1354260-0cd1-4e91-94b7-9518fef5a5f2" sshConfig="pi@192.168.1.164:22" />
+      </webServer>
+      <webServer id="ba0b0c9c-d145-4d65-8223-2a1efc893734" name="pi@192.168.1.127:22" url="http:///">
+        <fileTransfer accessType="SFTP" host="192.168.1.127" port="22" sshConfigId="422f7162-1af0-449a-8c96-ec28464ab332" sshConfig="pi@192.168.1.127:22" />
+      </webServer>
+      <webServer id="0ad8578a-b807-4450-8127-49b8b54ad63e" name="ProjectAlice - Bel-Air" url="http://192.168.2.188">
+        <fileTransfer rootFolder="/home/pi/" accessType="SFTP" host="192.168.2.188" port="22" sshConfigId="e660a4fe-b5ed-4037-a49b-2a1b9c38cacb" sshConfig="ProjectAlice - Bel-Air">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="5544dce5-1efd-45af-8f18-20a60f9a430c" name="ProjectAliceBuster" url="http:///">
+        <fileTransfer rootFolder="/home/pi" accessType="SFTP" host="192.168.1.168" port="22" sshConfigId="ebb56224-eb14-4945-8a5a-ce4d349eb825" sshConfig="ProjectAliceBuster" />
+      </webServer>
+      <webServer id="2e550e91-321d-413f-a5b7-66f9b41ee4ac" name="pi@192.168.1.154:22" url="http:///">
+        <fileTransfer rootFolder="/home/pi" accessType="SFTP" host="192.168.1.160" port="22" sshConfigId="8a2e1d61-baa7-49c3-996a-7b36e1a195d3" sshConfig="pi@192.168.1.154:22" />
+      </webServer>
+      <webServer id="84b31198-a126-4f26-b11e-12b98c14e9f6" name="pi@192.168.1.160:22 password">
+        <fileTransfer accessType="SFTP" host="192.168.1.160" port="22" sshConfigId="b36abc5b-c2f1-4398-aef9-5b42c958d146" sshConfig="pi@192.168.1.160:22 password" />
+      </webServer>
+      <webServer id="b164b3f1-e0d8-4503-aade-58416d9bf6f8" name="Respeaker6" url="http:///">
+        <fileTransfer rootFolder="/home/pi" accessType="SFTP" host="192.168.1.127" port="22" sshConfigId="422f7162-1af0-449a-8c96-ec28464ab332" sshConfig="pi@192.168.1.127:22" />
+      </webServer>
+    </option>
+    <groups>
+      <group>
+        <name>Alice satellites</name>
+        <servers>
+          <name value="Alice - Office" />
+          <name value="Alice - Bedroom" />
+          <name value="Alice - Living room" />
+          <name value="Alice - Second room" />
+        </servers>
+      </group>
+    </groups>
+  </component>
+</application>
