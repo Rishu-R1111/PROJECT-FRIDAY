@@ -1,13 +1,8 @@
 # Project_Friday
 
 ------------------------------------
-
-------------------------------------
 HeY, M Rishu , I am developing this project with using python more like the Google voice assistant. this was completed 40%. Soon I Will be upgrading it fully based on Artifitial intelligence-Machine leaning like adaptibility. This project is about voice assistant like google ,amazon echo. If u guys have any good suggesstion please let me know. i can try definatly.
 -------------------------------------
-
-------------------------------------
-
 ------------------------------------
 
 <p align="center">
@@ -21,7 +16,9 @@ HeY, M Rishu , I am developing this project with using python more like the Goog
 </p>
 
 
-
+-------------------------------------
+Yes, u can get the latest info about the sunsex graph , this Ai can also peridict about stock markating increment and decrement operator stock values n realestate
+------------------------------------
    <p align="center">
 <img src="https://www.h2o.ai/wp-content/themes/h2o2018/templates/dist/images/homepage/imac_pro_mockup.png" width="95%" height="auto">
 </p>
