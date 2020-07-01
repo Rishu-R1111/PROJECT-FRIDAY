@@ -86,14 +86,12 @@ Futuristic Menu UI
 Futuristic Weather api
 ------------------------------------
    <p align="center">
-<img src="https://i.pinimg.com/originals/a9/34/dd/a934dd3a1fa9634b7c7f4e1bbaa9534b.jpg" width="95%" height="auto">
+<img src="https://i.pinimg.com/originals/a9/34/dd/a934dd3a1fa9634b7c7f4e1bbaa9534b.jpg" width="65%" height="auto">
 </p>
-
--------------------------------------
 
 ------------------------------------
    <p align="center">
-<img src="" width="95%" height="auto">
+<img src="https://i.pinimg.com/originals/7d/43/9f/7d439fcdb9dfb7f363f16ed5042d6aad.jpg" width="65%" height="auto">
 </p>
 
 -------------------------------------
