@@ -47,23 +47,23 @@ Ai insource:Cortex
 </p>
 
 -------------------------------------
-Added SCISSOR PAPER ROCK GAME – PYTHON
+SCISSOR PAPER ROCK GAME – PYTHON
 ------------------------------------
    <p align="center">
 <img src="https://aihubprojects.com/wp-content/uploads/2019/10/Screenshot-from-2019-01-07-22-11-50.png" width="85%" height="auto">
 </p>
 
 -------------------------------------
-
+Find My Device
 ------------------------------------
    <p align="center">
-<img src="" width="95%" height="auto">
+<img src="https://android.imyfone.com/images/public/android-device-manager-software.jpg" width="89%" height="auto">
 </p>
 -------------------------------------
-
+Your Own YouTubeAPI
 ------------------------------------
    <p align="center">
-<img src="" width="95%" height="auto">
+<img src="https://previews-codecanyon.imgix.net/files/252550830/MyTube_App_Banner.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=d863118269f25265006249252714098f.png" width="95%" height="auto">
 </p>
 -------------------------------------
 
