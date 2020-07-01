@@ -104,7 +104,7 @@ Fully Customizable Ui
 -------------------------------------
  Ogui 
 ------------------------------------ 
-                       is supported Now
+              is supported Now
 
    <p align="center">
 <img src="https://raw.githubusercontent.com/maxmillion18/Ogui/master/images/1.png" width="95%" height="auto">
