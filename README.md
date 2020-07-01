@@ -3,10 +3,10 @@
 ------------------------------------
 HeY, M Rishu , I am developing this project with using python more like the Google voice assistant. this was completed 40%. Soon I Will be upgrading it fully based on Artifitial intelligence-Machine leaning like adaptibility. This project is about voice assistant like google ,amazon echo. If u guys have any good suggesstion please let me know. i can try definatly.
 ------------------------------------
-
+This AI Personal Assistant comes in 2 diffrent voices
 ------------------------------------
 ------------------------------------
-Friday : From The Avengers 
+1.Friday : From The Avengers 
 ------------------------------------
 <p align="center">
 <img src="https://vignette.wikia.nocookie.net/ironman/images/0/03/F.R.I.D.A.Y.jpg/revision/latest?cb=20191210194050" width="85%" height="auto">
@@ -17,7 +17,7 @@ Friday : From The Avengers
 </p>
 
 ------------------------------------
-Alice : From Resident Evil 
+2.Alice : From Resident Evil 
 ------------------------------------
 <p align="center">
 <img src="https://cutewallpaper.org/21/resident-evil-alice-wallpaper/Alice-Resident-Evil-Afterlife-wallpaper-Movie-.jpg" width="95%" height="auto">
