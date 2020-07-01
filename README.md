@@ -1,17 +1,9 @@
 # Project_Friday
-   
-
-Before you going 
-you need to install few packages
 
 ------------------------------------
 
 ------------------------------------
-HeY, M Rishu , 
-               I am developing this project with using python more like the Google voice assistant. this was completed 40%. 
-Soon I Will be upgrading it fully based on Artifitial intelligence-Machine leaning like adaptibility.
-This project is about voice assistant like google ,amazon echo.
-If u guys have any good suggesstion please let me know. i can try definatly.
+HeY, M Rishu , I am developing this project with using python more like the Google voice assistant. this was completed 40%. Soon I Will be upgrading it fully based on Artifitial intelligence-Machine leaning like adaptibility. This project is about voice assistant like google ,amazon echo. If u guys have any good suggesstion please let me know. i can try definatly.
 
 -------------------------------------
 
@@ -24,10 +16,6 @@ If u guys have any good suggesstion please let me know. i can try definatly.
 </p
 
 
-   <p align="center">
-<img src="https://i.pinimg.com/originals/86/86/46/8686467b4948402603ed643d47d1ec09.jpg" width="95%" height="auto">
-</p>
-
 
    <p align="center">
 <img src="https://miro.medium.com/max/2800/1*qij9GNDjQhJP4Kh81z-SsQ.png" width="95%" height="auto">
@@ -39,6 +27,10 @@ If u guys have any good suggesstion please let me know. i can try definatly.
 <img src="https://www.h2o.ai/wp-content/themes/h2o2018/templates/dist/images/homepage/imac_pro_mockup.png" width="95%" height="auto">
 </p>
 
+
+   <p align="center">
+<img src="https://i.pinimg.com/originals/86/86/46/8686467b4948402603ed643d47d1ec09.jpg" width="95%" height="auto">
+</p>
 
 
 Before you going 
