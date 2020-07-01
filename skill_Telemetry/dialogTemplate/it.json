@@ -1,0 +1,163 @@
+{
+	"skill": "Telemetry",
+	"icon": "temperature",
+	"description": "Accedi ai tuoi dati telemetrici",
+	"slotTypes": [
+		{
+			"name": "Alice/TelemetryType",
+			"matchingStrictness": null,
+			"automaticallyExtensible": false,
+			"useSynonyms": true,
+			"values": [
+				{
+					"value": "temperatura",
+					"synonyms": [
+						"quanto fà caldo",
+						"che freddo fà"
+					]
+				},
+				{
+					"value": "pressione",
+					"synonyms": [
+						"barometro"
+					]
+				},
+				{
+					"value": "umidità",
+					"synonyms": [
+						"umido"
+					]
+				},
+				{
+					"value": "luce",
+					"synonyms": [
+						"luminosità"
+					]
+				},
+				{
+					"value": "gas",
+					"synonyms": []
+				},
+				{
+					"value": "airQuality",
+					"synonyms": [
+						"qualità dell'aria",
+						"bontà dell'aria"
+					]
+				},
+				{
+					"value": "uvIndex",
+					"synonyms": [
+						"indice uv"
+					]
+				},
+				{
+					"value": "rumore",
+					"synonyms": [
+						"rumorosità",
+						"quanto forte"
+					]
+				},
+				{
+					"value": "co2",
+					"synonyms": [
+						"CO2",
+						"anidride carbonica"
+					]
+				},
+				{
+					"value": "pioggia",
+					"synonyms": [
+						"piovoso",
+						"piovendo"
+					]
+				},
+				{
+					"value": "wind_strength",
+					"synonyms": [
+						"vento",
+						"forza del vento"
+					]
+				},
+				{
+					"value": "gust_strength",
+					"synonyms": [
+						"potenza della raffica"
+					]
+				},
+				{
+					"value": "wind_angle",
+					"synonyms": [
+						"direzione del vento",
+						"in che direzione soffia il vento"
+					]
+				},
+				{
+					"value": "gust_angle",
+					"synonyms": [
+						"angolo delle reffiche",
+						"direzione delle raffiche"
+					]
+				}
+			]
+		}
+	],
+	"intents": [
+		{
+			"name": "GetTelemetryData",
+			"description": "L'utente chiede dati telemetrici",
+			"enabledByDefault": true,
+			"utterances": [
+				"qual'è la{temperatura:=>TelemetryType}",
+				"che {umidità:=>TelemetryType} c'è {fuori:=>Location}",
+				"dimmi il livello di {rumore:=>TelemetryType} che c'è in {salotto:=>Location}",
+				"quanto sta{piovendo:=>TelemetryType}",
+				"per favore mi dici che {forza del vento:=>TelemetryType}",
+				"controlla l'{indice uv:=>TelemetryType} per me per favore",
+				"quanto {monossido di carbonio=>TelemetryType} abbiamo in {camera da letto:=>Location}",
+				"com'è la {qualità dell'aria:=>TelemetryType} nella {cucina:=>Location}",
+				"{quanto fa caldo:=>TelemetryType} fa in {cucina:=>Location}",
+				"{che freddo fa:=>TelemetryType} {fuori:=>Location} per favore",
+				"per favore dimmi che {umidità:=>TelemetryType} c'è in {bagno:=>Location}",
+				"qual'è la {temperatura:=>TelemetryType} nel {salotto:=>Location}",
+				"rileva l'{umidità:=>TelemetryType} ine {ufficio:=>Location} per favore"
+			],
+			"slots": [
+				{
+					"name": "TelemetryType",
+					"description": "Il tipo di dato richiesto dall'utente",
+					"required": false,
+					"type": "Alice/TelemetryType",
+					"missingQuestion": ""
+				},
+				{
+					"name": "Location",
+					"description": "La stanza di interesse",
+					"required": false,
+					"type": "Alice/Location",
+					"missingQuestion": ""
+				}
+			]
+		},
+		{
+			"name": "AnswerTelemetryType",
+			"description": "L'utente risponde che dato vuole",
+			"enabledByDefault": false,
+			"utterances": [
+				"{temperatura:=>TelemetryType}",
+				"{umidità:=>TelemetryType} per piacere",
+				"quanto {rumore:=>TelemetryType}",
+				"dimmi che {indice uv:=>TelemetryType} per favore"
+			],
+			"slots": [
+				{
+					"name": "TelemetryType",
+					"description": "The type of data the user wants",
+					"required": false,
+					"type": "Alice/TelemetryType",
+					"missingQuestion": ""
+				}
+			]
+		}
+	]
+}

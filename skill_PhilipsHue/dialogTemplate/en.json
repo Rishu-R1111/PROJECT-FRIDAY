@@ -1,0 +1,284 @@
+{
+	"skill": "PhilipsHue",
+	"icon": "lights",
+	"description": "Handle your Philips Hue lights from anywhere",
+	"slotTypes": [
+		{
+			"name": "LightScene",
+			"matchingStrictness": null,
+			"automaticallyExtensible": true,
+			"useSynonyms": true,
+			"values": [
+				{
+					"value": "watching TV",
+					"synonyms": [
+						"watching television",
+						"watching tv"
+					]
+				},
+				{
+					"value": "day light",
+					"synonyms": [
+						"daylight"
+					]
+				},
+				{
+					"value": "going bed",
+					"synonyms": [
+						"going to bed",
+						"go bed",
+						"go in bed"
+					]
+				},
+				{
+					"value": "waking up",
+					"synonyms": [
+						"wake up"
+					]
+				},
+				{
+					"value": "relax",
+					"synonyms": []
+				},
+				{
+					"value": "read",
+					"synonyms": []
+				},
+				{
+					"value": "concentrate",
+					"synonyms": []
+				},
+				{
+					"value": "energize",
+					"synonyms": []
+				},
+				{
+					"value": "eating",
+					"synonyms": []
+				},
+				{
+					"value": "bright",
+					"synonyms": []
+				},
+				{
+					"value": "dimmed",
+					"synonyms": []
+				},
+				{
+					"value": "nightlight",
+					"synonyms": [
+						"night light"
+					]
+				},
+				{
+					"value": "evening",
+					"synonyms": []
+				},
+				{
+					"value": "makeup",
+					"synonyms": [
+						"make up"
+					]
+				},
+				{
+					"value": "early morning",
+					"synonyms": []
+				},
+				{
+					"value": "morning",
+					"synonyms": []
+				},
+				{
+					"value": "afternoon",
+					"synonyms": []
+				},
+				{
+					"value": "night",
+					"synonyms": []
+				},
+				{
+					"value": "sleeping",
+					"synonyms": []
+				}
+			]
+		}
+	],
+	"intents": [
+		{
+			"name": "PowerOffLights",
+			"description": "Turns off a light",
+			"enabledByDefault": true,
+			"utterances": [
+				"please lights off {everywhere:=>Location}",
+				"please turn off the {office:=>Location} light",
+				"turn the {office:=>Location} lights off",
+				"could you please turn the {office:=>Location} light off",
+				"light off {everywhere:=>Location}",
+				"lights off {everywhere:=>Location}",
+				"turn off the lights please",
+				"turn off the lights",
+				"lights off",
+				"lights off please",
+				"please turn off the lights in the {kitchen:=>Location}",
+				"light off in the {kitchen:=>Location}",
+				"turn off the lights in the {kitchen:=>Location}",
+				"some darkness in the {kitchen:=>Location} please",
+				"please turn off the light in the {kitchen:=>Location}",
+				"lights off in the {kitchen:=>Location}",
+				"turn off the light in the {kitchen:=>Location}"
+			],
+			"slots": [
+				{
+					"name": "Location",
+					"description": null,
+					"required": false,
+					"type": "Alice/Location",
+					"missingQuestion": ""
+				}
+			]
+		},
+		{
+			"name": "DimLights",
+			"description": "",
+			"enabledByDefault": true,
+			"utterances": [
+				"set to {50%:=>Percent} the lights in the {kitchen:=>Location}",
+				"please set the lights in the {kitchen:=>Location} to {50%:=>Percent}",
+				"dim the light {everywhere:=>Location} to {50 percent:=>Percent}",
+				"please dim the lights to {25%:=>Percent}",
+				"dim the lights in the {kitchen:=>Location} to {25%:=>Percent}",
+				"dim the lights in the {bedroom:=>Location}",
+				"dim the lights to {25 percent:=>Percent}",
+				"please dim the lights",
+				"dim the lights"
+			],
+			"slots": [
+				{
+					"name": "Location",
+					"description": null,
+					"required": false,
+					"type": "Alice/Location",
+					"missingQuestion": ""
+				},
+				{
+					"name": "Percent",
+					"description": null,
+					"required": false,
+					"type": "snips/percentage",
+					"missingQuestion": ""
+				}
+			]
+		},
+		{
+			"name": "ManageLights",
+			"description": "",
+			"enabledByDefault": true,
+			"utterances": [
+				"please lights {everywhere:=>Location}",
+				"lights {everywhere:=>Location} please",
+				"lights {everywhere:=>Location}",
+				"please light in the {bathroom:=>Location}",
+				"light in the {office:=>Location}",
+				"lights in the {office:=>Location} please",
+				"toggle lights in the {entrance:=>Location}",
+				"toggle the lights in the {kitchen:=>Location}",
+				"lights in the {kitchen:=>Location}",
+				"toggle the lights please",
+				"please toggle the lights",
+				"toggle the lights",
+				"lights please",
+				"please lights"
+			],
+			"slots": [
+				{
+					"name": "Location",
+					"description": null,
+					"required": false,
+					"type": "Alice/Location",
+					"missingQuestion": ""
+				}
+			]
+		},
+		{
+			"name": "PowerOnLights",
+			"description": "turns a light on",
+			"enabledByDefault": true,
+			"utterances": [
+				"light in the {office:=>Location}",
+				"please turn on the {office:=>Location} light",
+				"lights",
+				"turn on the lights {everywhere:=>Location}",
+				"please turn on the lights {everywhere:=>Location}",
+				"lights on {everywhere:=>Location}",
+				"please turn on the lights",
+				"turn on the lights please",
+				"turn on the lights",
+				"Light on in the {kitchen:=>Location} and {bathroom:=>Location}",
+				"Turn on the light in the {kitchen:=>Location}",
+				"Can I have light in the {kitchen:=>Location} please",
+				"Can I have light in the {kitchen:=>Location}",
+				"Illuminate the {kitchen:=>Location}",
+				"Please light the {kitchen:=>Location}",
+				"Lights on in the {kitchen:=>Location}",
+				"Turn on the lights in the {kitchen:=>Location}"
+			],
+			"slots": [
+				{
+					"name": "Location",
+					"description": null,
+					"required": false,
+					"type": "Alice/Location",
+					"missingQuestion": "In which location?"
+				}
+			]
+		},
+		{
+			"name": "SetLightsScene",
+			"description": "",
+			"enabledByDefault": true,
+			"utterances": [
+				"change the lights in the {bedroom:=>Location} to {going bed:=>Scene}",
+				"change the light in the {bedroom:=>Location} to {going bed:=>Scene}",
+				"set the light in the {living room:=>Location} to {watching tv:=>Scene}",
+				"set the lights in the {living room:=>Location} to {watching tv:=>Scene}",
+				"set the light to {energize:=>Scene} please",
+				"set the lights to {read:=>Scene}",
+				"change the light to {relax:=>Scene}",
+				"change the lights to {concentrate:=>Scene}",
+				"change the light to {going bed:=>Scene} in the {bedroom:=>Location}",
+				"set the lights to {watching tv:=>Scene} in the {living room:=>Location}",
+				"lights to {eating:=>Scene} in the {living room:=>Location}",
+				"set the lights to {relax:=>Scene}",
+				"lights in the {bedroom:=>Location} to {daylight:=>Scene}",
+				"change the lights to {going bed:=>Scene}",
+				"lights to {day light:=>Scene}",
+				"set the lights in the {kitchen:=>Location} to {day light:=>Scene}",
+				"set the {bedroom:=>Location} lights to {waking up:=>Scene}",
+				"set the {bedroom:=>Location} scene to {waking up:=>Scene}",
+				"set the {bedroom:=>Location} light scenery to {going bed:=>Scene}",
+				"change the lights in the {living room:=>Location} to {watching tv:=>Scene}",
+				"change the lighting to {watching tv:=>Scene}",
+				"please set the scenery to {watching tv:=>Scene}",
+				"set the scenery to {watching tv:=>Scene}",
+				"set the light scenery to {day light:=>Scene}",
+				"set the lights to {going bed:=>Scene}"
+			],
+			"slots": [
+				{
+					"name": "Scene",
+					"description": null,
+					"required": false,
+					"type": "LightScene",
+					"missingQuestion": ""
+				},
+				{
+					"name": "Location",
+					"description": null,
+					"required": false,
+					"type": "Alice/Location",
+					"missingQuestion": ""
+				}
+			]
+		}
+	]
+}

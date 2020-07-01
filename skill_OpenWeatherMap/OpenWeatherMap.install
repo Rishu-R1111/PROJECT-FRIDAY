@@ -1,0 +1,19 @@
+{
+	"name": "OpenWeatherMap",
+	"version": "1.1.11",
+	"icon": "fas fa-cloud-sun",
+	"category": "weather",
+	"author": "Psychokiller1888",
+	"maintainers": ["maxbachmann",
+					"philipp2310"],
+	"desc": "Weather forecast from openweathermap.com",
+	"aliceMinVersion": "1.0.0-a5",
+	"systemRequirements": [],
+	"conditions": {
+		"lang": [
+			"en",
+			"de"
+		],
+		"online": true
+	}
+}

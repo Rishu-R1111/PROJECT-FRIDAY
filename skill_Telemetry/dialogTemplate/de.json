@@ -1,0 +1,171 @@
+{
+	"skill": "Telemetry",
+	"icon": "temperature",
+	"description": "Access your stored telemetry data",
+	"slotTypes": [
+		{
+			"name": "Alice/TelemetryType",
+			"matchingStrictness": null,
+			"automaticallyExtensible": false,
+			"useSynonyms": true,
+			"values": [
+				{
+					"value": "temperature",
+					"synonyms": [
+						"Temperatur",
+						"wie warm",
+						"wir kalt"
+					]
+				},
+				{
+					"value": "pressure",
+					"synonyms": [
+						"Druck",
+						"Luftdruck",
+						"barometer"
+					]
+				},
+				{
+					"value": "humidity",
+					"synonyms": [
+						"Luftfeuchtigkeit",
+						"Feuchtigkeit",
+						"feucht"
+					]
+				},
+				{
+					"value": "light",
+					"synonyms": [
+						"licht",
+						"Lichtstärke",
+						"Helligkeit"
+					]
+				},
+				{
+					"value": "gas",
+					"synonyms": []
+				},
+				{
+					"value": "airQuality",
+					"synonyms": [
+						"Luftqualität",
+						"Qualität der Luft"
+					]
+				},
+				{
+					"value": "uvIndex",
+					"synonyms": [
+						"uv index"
+					]
+				},
+				{
+					"value": "noise",
+					"synonyms": [
+						"Lärm",
+						"Geräuschpegel",
+						"Lautstärke",
+						"wie laut"
+					]
+				},
+				{
+					"value": "co2",
+					"synonyms": [
+						"CO2",
+						"Kohlenstoffdioxid"
+					]
+				},
+				{
+					"value": "rain",
+					"synonyms": [
+						"Regen",
+						"regnerisch",
+						"regnen"
+					]
+				},
+				{
+					"value": "wind_strength",
+					"synonyms": [
+						"Wind",
+						"Windstärke"
+					]
+				},
+				{
+					"value": "gust_strength",
+					"synonyms": [
+						"Böenstärke"
+					]
+				},
+				{
+					"value": "wind_angle",
+					"synonyms": [
+						"Windwinkel",
+						"Windrichtung"
+					]
+				},
+				{
+					"value": "gust_angle",
+					"synonyms": [
+						"Böenwinkel",
+						"Böenrichtung"
+					]
+				}
+			]
+		}
+	],
+	"intents": [
+		{
+			"name": "GetTelemetryData",
+			"description": "User asks for telemetry data",
+			"enabledByDefault": true,
+			"utterances": [
+				"Was ist die {Temperatur:=>TelemetryType}",
+				"Was ist die {Feuchtigkeit:=>TelemetryType} {draußen:=>Location}",
+				"Nenne mir die {Lautstärke:=>TelemetryType} im {Wohnzimmer:=>Location}",
+				"Wie viel {regnet:=>TelemetryType} es",
+				"Kannst du mir bitte die {Windstärke:=>TelemetryType} nennen",
+				"Überprüfe bitte den {uv index:=>TelemetryType} für mich",
+				"Wie viel {Kohlendioxid:=>TelemetryType} gibt es im {Schlafzimmer:=>Location}",
+				"Wie ist die {Luftqualität:=>TelemetryType} in der {Küche:=>Location}",
+				"{wie warm:=>TelemetryType} ist es in der {Küche:=>Location}",
+				"{wie kalt:=>TelemetryType} ist es {draußen:=>Location} bitte",
+				"Bitte sag mir wie {feucht:=>TelemetryType} es im {Badezimmer:=>Location} ist"
+			],
+			"slots": [
+				{
+					"name": "TelemetryType",
+					"description": "The type of data the user wants",
+					"required": false,
+					"type": "Alice/TelemetryType",
+					"missingQuestion": ""
+				},
+				{
+					"name": "Location",
+					"description": "The room where the data is from",
+					"required": false,
+					"type": "Alice/Location",
+					"missingQuestion": ""
+				}
+			]
+		},
+		{
+			"name": "AnswerTelemetryType",
+			"description": "User answers what telemetry type he wants",
+			"enabledByDefault": false,
+			"utterances": [
+				"{Temperatur:=>TelemetryType}",
+				"{Luftfeuchtigkeit:=>TelemetryType} bitte",
+				"teil mir den {Geräuschpegel:=>TelemetryType} mit",
+				"Nenn mir bitte den {uv index:=>TelemetryType}"
+			],
+			"slots": [
+				{
+					"name": "TelemetryType",
+					"description": "The type of data the user wants",
+					"required": false,
+					"type": "Alice/TelemetryType",
+					"missingQuestion": ""
+				}
+			]
+		}
+	]
+}

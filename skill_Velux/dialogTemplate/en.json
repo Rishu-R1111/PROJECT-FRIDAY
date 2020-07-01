@@ -1,0 +1,163 @@
+{
+    "skill": "Velux",
+    "icon": "time",
+    "description": "Control your velux equipment with your voice! this requires a velux remote hack",
+    "slotTypes": [
+        {
+            "name": "VeluxAction",
+            "matchingStrictness": null,
+            "automaticallyExtensible": false,
+            "useSynonyms": false,
+            "values": [
+                {
+                    "value": "open"
+                },
+                {
+                    "value": "close"
+                }
+            ]
+        },
+        {
+            "name": "VeluxDevice",
+            "matchingStrictness": null,
+            "automaticallyExtensible": false,
+            "useSynonyms": true,
+            "values": [
+                {
+                    "value": "window",
+                    "synonyms": [
+                        "velux",
+                        "roof window",
+                        "skylight",
+                        "windows",
+                        "skylights",
+                        "roof windows",
+                        "veluxes"
+                    ]
+                },
+                {
+                    "value": "blind",
+                    "synonyms": [
+                        "blinder",
+                        "blinders",
+                        "blinds",
+                        "window blind",
+                        "window blinds"
+                    ]
+                }
+            ]
+        }
+    ],
+    "intents": [
+        {
+        	"name": "Velux_DoAction",
+        	"description": "The user wants to drive a Velux equipement",
+        	"enabledByDefault": true,
+        	"utterances": [
+        		"{close:=>Action} the {windows:=>Device}",
+        		"{open:=>Action} the {windows:=>Device} please",
+        		"{open:=>Action} the {windows:=>Device} {for 15 minutes:=>Duration} please",
+        		"{open:=>Action} the {windows:=>Device} to {50 percent:=>Percentage} {for 15 minutes:=>Duration}",
+        		"{open:=>Action} the {windows:=>Device} to {50 percent:=>Percentage} {for 15 minutes:=>Duration} please",
+        		"please {open:=>Action} the {windows:=>Device} to {50 percent:=>Percentage} {for 15 minutes:=>Duration}",
+        		"can you {open:=>Action} the {windows:=>Device} to {50 percent:=>Percentage} {for 15 minutes:=>Duration}",
+        		"do {open:=>Action} the {windows:=>Device} to {50 percent:=>Percentage} {for 15 minutes:=>Duration}",
+        		"do {open:=>Action} the {windows:=>Device} in the {living room:=>Location} {for 15 minutes:=>Duration}",
+        		"{open:=>Action} the {windows:=>Device} in the {living room:=>Location} {for 15 minutes:=>Duration}",
+        		"please {open:=>Action} the {windows:=>Device} in the {living room:=>Location} {for 15 minutes:=>Duration}",
+        		"{open:=>Action} the {windows:=>Device} in the {living room:=>Location} {for 15 minutes:=>Duration} please",
+        		"please {open:=>Action} the {windows:=>Device} {for 15 minutes:=>Duration}",
+        		"can you {open:=>Action} the {windows:=>Device} {for 15 minutes:=>Duration}",
+        		"can you please {open:=>Action} the {windows:=>Device} {for 15 minutes:=>Duration}",
+        		"can you {open:=>Action} the {windows:=>Device} {for 15 minutes:=>Duration} please",
+        		"do {open:=>Action} the {windows:=>Device} {for 15 minutes:=>Duration} please",
+        		"{open:=>Action} the {windows:=>Device} and {close:=>Action} them {in 15 minutes:=>Duration}",
+        		"{open:=>Action} the {windows:=>Device} and {close:=>Action} them {in 15 minutes:=>Duration} please",
+        		"can you {open:=>Action} the {windows:=>Device} and {close:=>Action} them {in 15 minutes:=>Duration} please",
+        		"please {open:=>Action} the {windows:=>Device} and {close:=>Action} them {in 15 minutes:=>Duration}",
+        		"could you please {open:=>Action} the {windows:=>Device} and {close:=>Action} them {in 15 minutes:=>Duration}",
+        		"can you please {open:=>Action} the {windows:=>Device} and {close:=>Action} them {in 15 minutes:=>Duration}",
+        		"can you please {open:=>Action} the {windows:=>Device} in the {bedroom:=>Location} and {close:=>Action} them {in 15 minutes:=>Duration}",
+        		"can you {open:=>Action} the {windows:=>Device} in the {bedroom:=>Location} and {close:=>Action} them {in 15 minutes:=>Duration}",
+        		"{open:=>Action} the {windows:=>Device} in the {bedroom:=>Location} and {close:=>Action} them {in 15 minutes:=>Duration}",
+        		"{open:=>Action} the {windows:=>Device} in the {bedroom:=>Location} and {close:=>Action} them {in 15 minutes:=>Duration} please",
+        		"please {open:=>Action} the {windows:=>Device} in the {bedroom:=>Location} and {close:=>Action} them {in 15 minutes:=>Duration}",
+        		"please {open:=>Action} the {windows:=>Device} in the {bedroom:=>Location} to {50 percent:=>Percentage} and {close:=>Action} them {in 15 minutes:=>Duration}",
+        		"{open:=>Action} the {windows:=>Device} in the {bedroom:=>Location} to {50 percent:=>Percentage} and {close:=>Action} them {in 15 minutes:=>Duration} please",
+        		"can you {open:=>Action} the {windows:=>Device} in the {bedroom:=>Location} to {50 percent:=>Percentage} and {close:=>Action} them {in 5 minutes:=>Duration} please",
+        		"could you {open:=>Action} the {windows:=>Device} in the {bedroom:=>Location} to {50 percent:=>Percentage} and {close:=>Action} them {in 15 minutes:=>Duration} please",
+        		"could you please {open:=>Action} the {windows:=>Device} in the {bedroom:=>Location} to {50 percent:=>Percentage} and {close:=>Action} them {in {1 minute:=>Duration}",
+        		"can you please {open:=>Action} the {windows:=>Device} in the {bedroom:=>Location} to {50 percent:=>Percentage} and {close:=>Action} them {in 1 minute:=>Duration}",
+        		"please {open:=>Action} the {blinders:=>Device}",
+        		"please {open:=>Action} the {blinders:=>Device} to {50 percent:=>Percentage}",
+        		"{open:=>Action} the {blinders:=>Device} to {50 percent:=>Percentage} please",
+        		"can you {open:=>Action} the {blinders:=>Device} to {50 percent:=>Percentage} please",
+        		"can you please {open:=>Action} the {blinders:=>Device} to {50 percent:=>Percentage}",
+        		"do {open:=>Action} the {blinders:=>Device} to {50 percent:=>Percentage} please",
+        		"do {open:=>Action} the {blinders:=>Device} in the {bedroom:=>Location} to {50 percent:=>Percentage} please",
+        		"do {open:=>Action} to {50 percent:=>Percentage} the {blinders:=>Device} in the {bedroom:=>Location} please",
+        		"{open:=>Action} to {50 percent:=>Percentage} the {blinders:=>Device} in the {bedroom:=>Location} please",
+        		"please {open:=>Action} to {50 percent:=>Percentage} the {blinders:=>Device} in the {bedroom:=>Location}",
+        		"can you please {close:=>Action} the {windows:=>Device}",
+        		"{close:=>Action} the {windows:=>Device} in the {bedroom:=>Location}",
+        		"{close:=>Action} the {windows:=>Device} in the {bedroom:=>Location} please",
+        		"please {close:=>Action} the {windows:=>Device} in the {bedroom:=>Location}",
+        		"can you {close:=>Action} the {windows:=>Device} in the {bedroom:=>Location}",
+        		"can you please {close:=>Action} the {windows:=>Device} in the {bedroom:=>Location}",
+        		"can you {close:=>Action} the {windows:=>Device} in the {bedroom:=>Location} please",
+        		"do {close:=>Action} the {windows:=>Device} in the {bedroom:=>Location} please",
+        		"do {close:=>Action} the {windows:=>Device} in the {bedroom:=>Location}",
+        		"can you {close:=>Action} the {windows:=>Device}",
+        		"can you {close:=>Action} the {windows:=>Device} please",
+        		"could you please {close:=>Action} the {windows:=>Device}",
+        		"could you {close:=>Action} the {windows:=>Device} please",
+        		"could you {close:=>Action} the {windows:=>Device} in the {office:=>Location} please",
+        		"could you {close:=>Action} the {windows:=>Device} in the {office:=>Location}",
+        		"{close:=>Action} the {windows:=>Device} in the {office:=>Location}",
+        		"can you please {close:=>Action} the {windows:=>Device} in the {office:=>Location}",
+        		"can you {close:=>Action} the {windows:=>Device} in the {office:=>Location} please",
+        		"can you {open:=>Action} the {windows:=>Device} in the {bathroom:=>Location} {for 15 minutes:=>Duration}",
+        		"can you {open:=>Action} the {windows:=>Device} in the {bathroom:=>Location} {for 15 minutes:=>Duration} please",
+        		"can you please {open:=>Action} the {windows:=>Device} in the {bathroom:=>Location} {for 15 minutes:=>Duration}",
+        		"do {open:=>Action} the {windows:=>Device} in the {bathroom:=>Location} {for 15 minutes:=>Duration}"
+        	],
+        	"slots": [
+        		{
+        			"name": "Action",
+        			"description": null,
+        			"required": false,
+        			"type": "VeluxAction",
+        			"missingQuestion": ""
+        		},
+                {
+                    "name": "Device",
+                    "description": null,
+                    "required": false,
+                    "type": "VeluxDevice",
+                    "missingQuestion": ""
+                },
+                {
+                    "name": "Percentage",
+                    "description": null,
+                    "required": false,
+                    "type": "snips/percentage",
+                    "missingQuestion": ""
+                },
+                {
+                    "name": "Duration",
+                    "description": null,
+                    "required": false,
+                    "type": "snips/duration",
+                    "missingQuestion": ""
+                },
+                {
+                    "name": "Location",
+                    "description": null,
+                    "required": false,
+                    "type": "Alice/Location",
+                    "missingQuestion": ""
+                }
+        	]
+        }
+    ]
+}

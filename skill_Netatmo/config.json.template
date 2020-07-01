@@ -1,0 +1,26 @@
+{
+	"clientId": {
+		"defaultValue": "",
+		"dataType": "string",
+		"isSensitive": false,
+		"description": "Netatmo API client id"
+	},
+	"clientSecret": {
+		"defaultValue": "",
+		"dataType": "string",
+		"isSensitive": true,
+		"description": "Netatmo API client secret"
+	},
+	"username": {
+		"defaultValue": "",
+		"dataType": "email",
+		"isSensitive": false,
+		"description": "Netatmo login username"
+	},
+	"password": {
+		"defaultValue": "",
+		"dataType": "string",
+		"isSensitive": true,
+		"description": "Netatmo login password"
+	}
+}

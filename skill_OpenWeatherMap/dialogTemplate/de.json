@@ -1,0 +1,72 @@
+{
+	"skill": "OpenWeatherMap",
+	"icon": "rain",
+	"description": "Zugriff auf das Wetter mit OpenWeatherMap",
+	"slotTypes": [],
+	"intents": [
+		{
+			"name": "GetWeather",
+			"description": "Frage nach dem aktuellen Wetter",
+			"enabledByDefault": true,
+			"utterances": [
+				"wie ist das Wetter",
+				"Sag mir wie das wetter ist",
+				"Wie ist das Wetter gerade",
+				"Kannst du mir bitte sagen wie das Wetter ist",
+				"Bitte sag mir wie das wetter ist",
+				"sag mir bitte wie das wetter ist",
+				"schau mal wie das wetter ist",
+				"schau bitte mal nach wie das wetter ist",
+				"schau mal bitte wie das wetter gerade ist",
+				"wie sieht es heute draußen aus",
+				"wie ist das Wetter in {London:=>City}",
+				"Sag mir wie das wetter in {London:=>City} ist",
+				"Wie ist das Wetter gerade in {London:=>City}",
+				"Kannst du mir bitte sagen wie das Wetter in {London:=>City} ist",
+				"Bitte sag mir wie das wetter in {London:=>City} ist",
+				"sag mir bitte wie das wetter in {London:=>City} ist",
+				"schau mal wie das wetter in {London:=>City} ist",
+				"schau bitte mal nach wie das wetter in {London:=>City} ist",
+				"schau mal bitte wie das wetter in {London:=>City} gerade ist",
+				"wie sieht es heute in {London:=>City} aus",
+				"wie viel grad haben wir"
+			],
+			"slots": [
+				{
+					"name": "City",
+					"description": null,
+					"required": false,
+					"type": "Alice/CityNames",
+					"missingQuestion": ""
+				}
+			]
+		},
+		{
+			"name": "AnswerCity",
+			"description": "Antwort auf die Frage nach dem Ort",
+			"enabledByDefault": false,
+			"utterances": [
+				"{London:=>City}",
+				"in {Paris:=>City}",
+				"{Zurich:=>City} bitte",
+				"in {Munich:=>City} bitte",
+				"in {Glasgow:=>City}",
+				"{Bern:=>City}",
+				"{Lausanne:=>City}",
+				"{New York:=>City}",
+				"{Washington:=>City}",
+				"{Hamburg:=>City}",
+				"{Marseille:=>City}"
+			],
+			"slots": [
+				{
+					"name": "City",
+					"description": null,
+					"required": false,
+					"type": "Alice/CityNames",
+					"missingQuestion": ""
+				}
+			]
+		}
+	]
+}

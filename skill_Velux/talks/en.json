@@ -1,0 +1,25 @@
+{
+	"willDoLater": {
+		"default": [
+			"The Velux module is currently busy, but i'll do it as soon as possible.",
+			"I'll do it as soon as possible but for now the Velux module is busy.",
+			"Ok but the Velux module is currently busy, I will do it as soon as possible."
+		],
+		"short": [
+			"Ok!",
+			"I do it!",
+			"Sure!"
+		]
+	},
+	"ok": {
+		"default": [
+			"Sure, no problem!",
+			"Ok, I do that for you!",
+			"Gladly, doing it!"
+		],
+		"short": [
+			"Ok!",
+			"Done!"
+		]
+	}
+}

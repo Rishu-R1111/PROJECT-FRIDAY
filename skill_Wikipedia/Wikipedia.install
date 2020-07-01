@@ -1,0 +1,23 @@
+{
+	"name": "Wikipedia",
+	"version": "1.1.4",
+	"icon": "fab fa-wikipedia-w",
+	"category": "information",
+	"author": "Psychokiller1888",
+	"maintainers": ["Jierka", "maxbachmann"],
+	"desc": "Allows one to find informations about a topic on wikipedia",
+	"aliceMinVersion": "1.0.0-a5",
+	"systemRequirements": [],
+	"pipRequirements": [
+		"wikipedia",
+		"BeautifulSoup4==4.6.3"
+	],
+	"conditions": {
+		"lang": [
+			"en",
+			"fr",
+			"de"
+		],
+		"online": true
+	}
+}

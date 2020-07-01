@@ -1,0 +1,24 @@
+{
+	"name": "PrinterControl",
+	"version": "1.0.1",
+	"icon": "fas fa-print",
+	"category": "automation",
+	"author": "mjlill",
+	"maintainers": [
+		"maxbachmann",
+		"Psychokiller1888"
+	],
+	"desc": "Printer on / off control",
+	"aliceMinVersion": "1.0.0-a4",
+	"systemRequirements": [],
+	"pipRequirements": [
+		"RPi.GPIO"
+	],
+	"conditions": {
+		"lang": [
+			"en",
+			"de"
+		]
+	}
+}
+

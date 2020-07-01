@@ -1,0 +1,14 @@
+{
+	"youtubeApiKey": {
+		"defaultValue": "",
+		"dataType": "string",
+		"isSensitive": true,
+		"description": "Youtube service key"
+	},
+	"username": {
+		"defaultValue": "",
+		"dataType": "string",
+		"isSensitive": false,
+		"description": "Youtube username"
+	}
+}

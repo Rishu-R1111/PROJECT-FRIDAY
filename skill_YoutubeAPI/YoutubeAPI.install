@@ -1,0 +1,22 @@
+{
+    "name": "YoutubeAPI",
+    "version": "0.0.1",
+    "icon": "fab fa-youtube",
+    "category": "undefined",
+    "author": "Psychokiller1888",
+    "maintainers": [],
+    "desc": "Access and manage your youtube account",
+    "aliceMinVersion": "1.0.0-a6",
+    "systemRequirements": [
+        ""
+    ],
+    "pipRequirements": [
+        "youtube-data-api==0.0.17"
+    ],
+    "conditions": {
+        "lang": [
+            "en"
+        ],
+        "asrArbitraryCapture": true
+    }
+}

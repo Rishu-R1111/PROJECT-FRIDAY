@@ -1,0 +1,20 @@
+{
+	"skill": "YoutubeAPI",
+	"icon": "time",
+	"description": "Access and manage your youtube account",
+	"slotTypes": [],
+	"intents": [
+		{
+			"name": "GetYoutubeChannelStats",
+			"description": "User wants to get stats for his youtube channel",
+			"enabledByDefault": true,
+			"utterances": [
+				"can you please give me the latest statistics for my youtube channel",
+				"give me the latest statistics for my youtube channel",
+				"what are the latest statistics for my youtube channel"
+			],
+			"slots": [
+			]
+		}
+	]
+}

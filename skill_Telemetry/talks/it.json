@@ -1,0 +1,25 @@
+{
+	"noType": {
+		"default": [
+			"Che informazione vuoi che controlli?",
+			"Quale dato telemetrico?",
+			"Cosa vuoi controllare?"
+		],
+		"short": [
+			"Che dato?"
+		]
+	},
+	"noData": {
+		"default": [
+			"Mi dispiace, non credo di disporre di questa informazione",
+			"Scusami, ma non lo so",
+			"Non ho idea di come misurarlo"
+		],
+		"short": [
+			"Non saprei"
+		]
+	},
+	"answerInstant": [
+		"{}"
+	]
+}

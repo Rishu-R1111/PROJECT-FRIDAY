@@ -1,0 +1,8 @@
+{
+	"myText": [
+		"Your channel currently has {} subscriptions."
+	],
+	"error": [
+		"Something went wrong retrieving your channel's metadata. Make sure your username and API key are correctly set."
+	]
+}

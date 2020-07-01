@@ -1,0 +1,567 @@
+{
+	"skill": "PhilipsHue",
+	"icon": "lights",
+	"description": "Schalte deine Philips Hue Leuchten mit Alice",
+	"slotTypes": [
+		{
+			"name": "LightScene",
+			"matchingStrictness": null,
+			"automaticallyExtensible": true,
+			"useSynonyms": true,
+			"values": [
+				{
+					"value": "Watching TV",
+					"synonyms": [
+						"Fernsehen",
+						"TV schauen",
+						"Video gucken",
+						"Netflix schauen"
+					]
+				},
+				{
+					"value": "Tageslicht",
+					"synonyms": []
+				},
+				{
+					"value": "Entspannen",
+					"synonyms": []
+				},
+				{
+					"value": "Lesen",
+					"synonyms": []
+				},
+				{
+					"value": "Konzentrieren",
+					"synonyms": []
+				},
+				{
+					"value": "Energie tanken",
+					"synonyms": []
+				},
+				{
+					"value": "Essen",
+					"synonyms": []
+				},
+				{
+					"value": "Hell",
+					"synonyms": []
+				},
+				{
+					"value": "Gedimmt",
+					"synonyms": []
+				},
+				{
+					"value": "Nachtlicht",
+					"synonyms": []
+				},
+				{
+					"value": "Sonnenuntergang Savanne",
+					"synonyms": []
+				},
+				{
+					"value": "Tropendämmerung",
+					"synonyms": []
+				},
+				{
+					"value": "Smaragd-Insel",
+					"synonyms": []
+				},
+				{
+					"value": "Bergbrise",
+					"synonyms": []
+				},
+				{
+					"value": "Fairfax",
+					"synonyms": []
+				},
+				{
+					"value": "Tropendämmerung",
+					"synonyms": []
+				},
+				{
+					"value": "Nordlichter",
+					"synonyms": []
+				},
+				{
+					"value": "Frühlingsblüten",
+					"synonyms": []
+				},
+				{
+					"value": "Goldener Teich",
+					"synonyms": []
+				},
+				{
+					"value": "Frühlingssee",
+					"synonyms": []
+				},
+				{
+					"value": "Rubinrotes Leuchten",
+					"synonyms": []
+				},
+				{
+					"value": "Mittsommersonne",
+					"synonyms": [
+						"Sommersonne"
+					]
+				},
+				{
+					"value": "Frostige Morgendämmerung",
+					"synonyms": []
+				},
+				{
+					"value": "Herbstgold",
+					"synonyms": []
+				},
+				{
+					"value": "Winterlicher Berg",
+					"synonyms": []
+				},
+				{
+					"value": "Wintersonnenwende",
+					"synonyms": []
+				},
+				{
+					"value": "Sonntagmorgen",
+					"synonyms": []
+				},
+				{
+					"value": "Morgendämmerung am Meer",
+					"synonyms": [
+						"Morgendämmerung"
+					]
+				},
+				{
+					"value": "Nebel über dem See",
+					"synonyms": []
+				},
+				{
+					"value": "Sundowner",
+					"synonyms": [
+						"Sonnenuntergang"
+					]
+				},
+				{
+					"value": "Lake Placid",
+					"synonyms": []
+				},
+				{
+					"value": "Palm Beach",
+					"synonyms": []
+				},
+				{
+					"value": "Blaue Lagune",
+					"synonyms": []
+				},
+				{
+					"value": "Ibiza",
+					"synonyms": []
+				},
+				{
+					"value": "Honolulu",
+					"synonyms": []
+				},
+				{
+					"value": "Osaka",
+					"synonyms": []
+				},
+				{
+					"value": "Chinatown",
+					"synonyms": []
+				},
+				{
+					"value": "Soho",
+					"synonyms": []
+				},
+				{
+					"value": "Tokio",
+					"synonyms": []
+				},
+				{
+					"value": "Motown",
+					"synonyms": []
+				},
+				{
+					"value": "Galaxie",
+					"synonyms": []
+				},
+				{
+					"value": "Sternenlicht",
+					"synonyms": []
+				},
+				{
+					"value": "Blutmond",
+					"synonyms": []
+				},
+				{
+					"value": "Sternennebel",
+					"synonyms": []
+				},
+				{
+					"value": "Mondlicht",
+					"synonyms": []
+				},
+				{
+					"value": "Nordlichter",
+					"synonyms": []
+				}
+			]
+		}
+	],
+	"intents": [
+		{
+			"name": "PowerOffLights",
+			"description": "Turns off a light",
+			"enabledByDefault": true,
+			"utterances": [
+				"Bitte {überall:=>Location} Licht aus",
+				"Bitte schalte das {Büro:=>Location} Licht aus",
+				"Schalte das {Büro:=>Location} Licht aus",
+				"Kannst du bitte das Licht im {Büro:=>Location} ausschalten",
+				"Kannst du bitte das Licht in der {Küche:=>Location} ausschalten",
+				"Licht aus {überall:=>Location}",
+				"Lichter aus {überall:=>Location}",
+				"Licht {überall:=>Location} aus",
+				"Lichter {überall:=>Location} aus",
+				"Schalte das Licht aus bitte",
+				"Schalte das Licht aus",
+				"Schalte das Licht ab bitte",
+				"Schalte das Licht ab",
+				"Schalte die Lichter aus bitte",
+				"Schalte die Lichter aus",
+				"Schalte die Lichter ab bitte",
+				"Schalte die Lichter ab",
+				"Bitte schalte das Licht aus",
+				"Bitte schalte die Lichter aus",
+				"Licht aus",
+				"Lichter aus",
+				"Licht aus bitte",
+				"Lichter aus bitte",
+				"Bitte schalte das Licht im {Büro:=>Location} aus",
+				"Bitte schalte das Licht in der {Küche:=>Location} aus",
+				"Bitte schalte die Lichter im {Büro:=>Location} aus",
+				"Bitte schalte die Lichter in der {Küche:=>Location} aus",
+				"Licht im {Büro:=>Location} aus",
+				"Licht in der {Küche:=>Location} aus",
+				"Lichter im {Büro:=>Location} aus",
+				"Lichter in der {Küche:=>Location} aus",
+				"Schalte das Licht im {Büro:=>Location} aus",
+				"Schalte das Licht in der {Küche:=>Location} aus",
+				"Schalte die Lichter im {Büro:=>Location} aus",
+				"Schalte die Lichter in der {Küche:=>Location} aus",
+				"Mach es im {Büro:=>Location} dunkel bitte",
+				"Mach es in der {Küche:=>Location} dunkel bitte",
+				"Bringe Dunkelheit über das {Büro:=>Location}",
+				"Bringe Dunkelheit über die {Küche:=>Location}",
+				"Bringe Dunkelheit über den {Badezimmer:=>Location}"
+			],
+			"slots": [
+				{
+					"name": "Location",
+					"description": null,
+					"required": false,
+					"type": "Alice/Location",
+					"missingQuestion": ""
+				}
+			]
+		},
+		{
+			"name": "DimLights",
+			"description": "",
+			"enabledByDefault": true,
+			"utterances": [
+				"Dimme das Licht {überall:=>Location} auf {50 Prozent:=>Percent} bitte",
+				"Dimme das Licht {überall:=>Location} auf {50 Prozent:=>Percent}",
+				"Dimme die Lichter {überall:=>Location} auf {50 Prozent:=>Percent} bitte",
+				"Dimme die Lichter {überall:=>Location} auf {50 Prozent:=>Percent}",
+				"Bitte dimme das Licht auf {25%:=>Percent}",
+				"Bitte dimme die Lichter auf {25%:=>Percent}",
+				"Dimme das Licht auf {25 Prozent:=>Percent} bitte",
+				"Dimme die Lichter auf {25 Prozent:=>Percent} bitte",
+				"Dimme das Licht auf {25 Prozent:=>Percent}",
+				"Dimme die Lichter auf {25 Prozent:=>Percent}",
+				"Dimme das Licht im {Büro:=>Location} auf {25 Prozent:=>Percent}",
+				"Dimme das Licht in der {Küche:=>Location} auf {25%:=>Percent}",
+				"Dimme die Lichter im {Büro:=>Location} auf {25 Prozent:=>Percent} bitte",
+				"Dimme die Lichter in der {Küche:=>Location} auf {50%:=>Percent} bitte",
+				"Dimme die Lichter im {Büro:=>Location} auf {75%:=>Percent}",
+				"Dimme die Lichter in der {Küche:=>Location} auf {85%:=>Percent}",
+				"Dimme das Licht im {Schalfzimmer:=>Location} bitte",
+				"Dimme das Licht in der {Schalfzimmer:=>Location} bitte",
+				"Dimme das Licht im {Schalfzimmer:=>Location}",
+				"Dimme das Licht in der {Schalfzimmer:=>Location}",
+				"Dimme die Lichter im {Schalfzimmer:=>Location} bitte",
+				"Dimme die Lichter in der {Küche:=>Location} bitte",
+				"Dimme die Lichter im {Schalfzimmer:=>Location}",
+				"Dimme die Lichter in der {Küche:=>Location}",
+				"Bitte dimme die Lichter",
+				"Bitte dimme das Licht",
+				"Dimme die Lichter",
+				"Dimme das Licht",
+				"Dimme die Lichter bitte",
+				"Dimme das Licht bitte",
+				"Erhelle das {Schalfzimmer:=>Location}",
+				"Erhelle das {Schalfzimmer:=>Location} bitte",
+				"Bitte erhelle das {Schalfzimmer:=>Location}",
+				"Erhelle das Licht im {Schalfzimmer:=>Location}",
+				"Erhelle das Licht im {Schalfzimmer:=>Location} bitte",
+				"Bitte erhelle das Licht im {Schalfzimmer:=>Location}",
+				"Erhelle das Licht in der {Küche:=>Location}",
+				"Erhelle das Licht in der {Küche:=>Location} bitte",
+				"Bitte erhelle das Licht in der {Küche:=>Location}",
+				"Erhelle die Lichter im {Schalfzimmer:=>Location}",
+				"Erhelle die Lichter im {Schalfzimmer:=>Location} bitte",
+				"Bitte erhelle die Lichter im {Schalfzimmer:=>Location}",
+				"Erhelle die Lichter in der {Küche:=>Location}",
+				"Erhelle die Lichter in der {Küche:=>Location} bitte",
+				"Bitte erhelle die Lichter in der {Küche:=>Location}",
+				"Erhelle die {Küche:=>Location}",
+				"Erhelle die {Küche:=>Location} bitte",
+				"Bitte erhelle die {Küche:=>Location}"
+			],
+			"slots": [
+				{
+					"name": "Location",
+					"description": null,
+					"required": false,
+					"type": "Alice/Location",
+					"missingQuestion": ""
+				},
+				{
+					"name": "Percent",
+					"description": null,
+					"required": false,
+					"type": "snips/percentage",
+					"missingQuestion": ""
+				}
+			]
+		},
+		{
+			"name": "ManageLights",
+			"description": "",
+			"enabledByDefault": true,
+			"utterances": [
+				"Bitte Licht {überall:=>Location}",
+				"Bitte {überall:=>Location} Licht",
+				"Licht {überall:=>Location} bitte",
+				"Licht {überall:=>Location}",
+				"Bitte Lichter {überall:=>Location}",
+				"Lichter {überall:=>Location} bitte",
+				"Lichter {überall:=>Location}",
+				"Bitte Licht im {Badezimmer:=>Location}",
+				"Bitte Licht in der {Küche:=>Location}",
+				"Bitte Lichter im {Badezimmer:=>Location}",
+				"Bitte Lichter in der {Küche:=>Location}",
+				"Licht im {Büro:=>Location} bitte",
+				"Licht in der {Küche:=>Location} bitte",
+				"Licht im {Büro:=>Location}",
+				"Licht in der {Küche:=>Location}",
+				"Lichter im {Büro:=>Location}",
+				"Lichter in der {Küche:=>Location}",
+				"Schalte das Licht im {Eingang:=>Location} um",
+				"Schalte das Licht in der {Küche:=>Location} um",
+				"Schalte die Lichter im {Eingang:=>Location} um",
+				"Schalte die Lichter in der {Küche:=>Location} um",
+				"Schalte das Licht um",
+				"Schalte die Lichter um",
+				"Bitte schalte das Licht um",
+				"Bitte schalte die Lichter um",
+				"Licht bitte",
+				"Lichter bitte",
+				"Bitte Licht",
+				"Bitte Lichter"
+			],
+			"slots": [
+				{
+					"name": "Location",
+					"description": null,
+					"required": false,
+					"type": "Alice/Location",
+					"missingQuestion": ""
+				}
+			]
+		},
+		{
+			"name": "PowerOnLights",
+			"description": "turns a light on",
+			"enabledByDefault": true,
+			"utterances": [
+				"Licht im {Büro:=>Location}",
+				"Licht in der {Küche:=>Location}",
+				"Bitte schalte das {Büro:=>Location} Licht ein",
+				"Bitte schalte das {Schalfzimmer:=>Location} Licht an",
+				"Licht",
+				"Schalte {überall:=>Location} das Licht ein",
+				"Bitte schalte {überall:=>Location} das Licht ein",
+				"Bitte schalte {überall:=>Location} das Licht an",
+				"Lichter {überall:=>Location} ein",
+				"Lichter {überall:=>Location} an",
+				"Bitte schalte das Licht ein",
+				"Bitte schalte das Licht an",
+				"Bitte schalte das Lichter ein",
+				"Bitte schalte das Lichter an",
+				"Schalte das Licht ein bitte",
+				"Schalte die Lichter ein bitte",
+				"Schalte das Licht ein",
+				"Schalte das Licht an",
+				"Schalte das Lichter ein",
+				"Schalte das Lichter an",
+				"Licht ein im {Büro:=>Location} und im {Badezimmer:=>Location}",
+				"Licht an im {Büro:=>Location} und im {Badezimmer:=>Location}",
+				"Lichter ein im {Büro:=>Location} und im {Badezimmer:=>Location}",
+				"Lichter an im {Büro:=>Location} und im {Badezimmer:=>Location}",
+				"Licht ein in der {Küche:=>Location} und im {Badezimmer:=>Location}",
+				"Licht an in der {Küche:=>Location} und im {Badezimmer:=>Location}",
+				"Lichter ein in der {Küche:=>Location} und im {Badezimmer:=>Location}",
+				"Lichter an in der {Küche:=>Location} und im {Badezimmer:=>Location}",
+				"Licht ein in der {Küche:=>Location} und in der {Badezimmer:=>Location}",
+				"Licht an in der {Küche:=>Location} und in der {Badezimmer:=>Location}",
+				"Lichter ein in der {Küche:=>Location} und in der {Badezimmer:=>Location}",
+				"Lichter an in der {Küche:=>Location} und in der {Ankleide:=>Location}",
+				"Licht ein im {Wohnzimmer:=>Location} und in der {Küche:=>Location}",
+				"Licht an im {Schalfzimmer:=>Location} und in der {Badezimmer:=>Location}",
+				"Lichter ein im {Schalfzimmer:=>Location} und in der {Badezimmer:=>Location}",
+				"Lichter an im {Schalfzimmer:=>Location} und in der {Badezimmer:=>Location}",
+				"Schalte das Licht im {Büro:=>Location} ein",
+				"Schalte das Licht im {Büro:=>Location} an",
+				"Schalte das Licht in der {Küche:=>Location} ein",
+				"Schalte das Licht in der {Büro:=>Location} an",
+				"Kann ich Licht im {Büro:=>Location} haben bitte",
+				"Kann ich Licht in der {Küche:=>Location} haben bitte",
+				"Kann ich Licht im {Büro:=>Location} haben",
+				"Kann ich Licht in der {Küche:=>Location} haben",
+				"Dürfte ich bitte Licht im {Büro:=>Location} haben",
+				"Dürfte ich bitte Licht in der {Küche:=>Location} haben",
+				"Erleuchte die {Küche:=>Location}",
+				"Erleuchte das {Büro:=>Location}",
+				"Erleuchte den {Küche:=>Location}",
+				"Bitte erleuchte die {Küche:=>Location}",
+				"Bitte erleuchte das {Büro:=>Location}",
+				"Bitte erleuchte den {Küche:=>Location}"
+			],
+			"slots": [
+				{
+					"name": "Location",
+					"description": null,
+					"required": false,
+					"type": "Alice/Location",
+					"missingQuestion": "In which location?"
+				}
+			]
+		},
+		{
+			"name": "SetLightsScene",
+			"description": "",
+			"enabledByDefault": true,
+			"utterances": [
+				"Wechsel das Licht im {Büro:=>Location} zu {Lesen:=>Scene}",
+				"Wechsel das Licht in der {Küche:=>Location} zu {Lesen:=>Scene}",
+				"Wechsel die Lichter im {Büro:=>Location} zu {Lesen:=>Scene}",
+				"Wechsel die Lichter in der {Küche:=>Location} zu {Lesen:=>Scene}",
+				"Wechsel das Licht im {Büro:=>Location} auf {Lesen:=>Scene}",
+				"Wechsel das Licht in der {Küche:=>Location} auf {Lesen:=>Scene}",
+				"Wechsel die Lichter im {Büro:=>Location} auf {Lesen:=>Scene}",
+				"Wechsel die Lichter in der {Küche:=>Location} auf {Lesen:=>Scene}",
+				"Wechsel das Licht auf {relax:=>Scene} bitte",
+				"Wechsel das Licht auf {relax:=>Scene}",
+				"Wechsel die Lichter auf {relax:=>Scene} bitte",
+				"Wechsel die Lichter auf {relax:=>Scene}",
+				"Wechsel das Licht zu {relax:=>Scene} bitte",
+				"Wechsel das Licht zu {relax:=>Scene}",
+				"Wechsel die Lichter zu {relax:=>Scene} bitte",
+				"Wechsel die Lichter zu {relax:=>Scene}",
+				"Wechsel die Lichter auf {Konzentrieren:=>Scene} bitte",
+				"Wechsel die Lichter auf {Konzentrieren:=>Scene}",
+				"Wechsel das Licht zu {Sundowner:=>Scene} im {Schalfzimmer:=>Location} bitte",
+				"Wechsel das Licht zu {Sundowner:=>Scene} in der {Küche:=>Location} bitte",
+				"Wechsel die Lichter zu {Sundowner:=>Scene} im {Schalfzimmer:=>Location} bitte",
+				"Wechsel die Lichter zu {Sundowner:=>Scene} in der {Küche:=>Location} bitte",
+				"Wechsel das Licht zu {Sundowner:=>Scene} im {Schalfzimmer:=>Location}",
+				"Wechsel das Licht zu {Sundowner:=>Scene} in der {Küche:=>Location}",
+				"Wechsel die Lichter zu {Sundowner:=>Scene} im {Schalfzimmer:=>Location}",
+				"Wechsel die Lichter zu {Sundowner:=>Scene} in der {Küche:=>Location}",
+				"Licht zu {Nachlicht:=>Scene} im {Wohnzimmer:=>Location} bitte",
+				"Licht zu {Nachlicht:=>Scene} in der {Küche:=>Location} bitte",
+				"Lichter zu {Nachlicht:=>Scene} im {Wohnzimmer:=>Location} bitte",
+				"Lichter zu {Nachlicht:=>Scene} in der {Küche:=>Location} bitte",
+				"Licht zu {Nachlicht:=>Scene} im {Wohnzimmer:=>Location}",
+				"Licht zu {Nachlicht:=>Scene} in der {Küche:=>Location}",
+				"Lichter zu {Nachlicht:=>Scene} im {Wohnzimmer:=>Location}",
+				"Lichter zu {Nachlicht:=>Scene} in der {Küche:=>Location}",
+				"Licht im {Schalfzimmer:=>Location} zu {daylight:=>Scene} bitte",
+				"Licht in der {Küche:=>Location} zu {daylight:=>Scene} bitte",
+				"Lichter im {Schalfzimmer:=>Location} zu {daylight:=>Scene} bitte",
+				"Lichter in der {Küche:=>Location} zu {daylight:=>Scene} bitte",
+				"Licht im {Schalfzimmer:=>Location} zu {daylight:=>Scene}",
+				"Licht in der {Küche:=>Location} zu {daylight:=>Scene}",
+				"Lichter im {Schalfzimmer:=>Location} zu {daylight:=>Scene}",
+				"Lichter in der {Küche:=>Location} zu {daylight:=>Scene}",
+				"Setze die Lichtszene im {Büro:=>Location} zu {Tageslicht:=>Scene} bitte",
+				"Setze die Lichtszene in der {Küche:=>Location} zu {Tageslicht:=>Scene} bitte",
+				"Setze die Lichtszene im {Büro:=>Location} zu {Tageslicht:=>Scene}",
+				"Setze die Lichtszene in der {Küche:=>Location} zu {Tageslicht:=>Scene}",
+				"Setze die Lichter im {Büro:=>Location} zu {Tageslicht:=>Scene} bitte",
+				"Setze die Lichter in der {Büro:=>Location} zu {Tageslicht:=>Scene} bitte",
+				"Setze die Lichter im {Büro:=>Location} zu {Tageslicht:=>Scene}",
+				"Setze die Lichter in der {Büro:=>Location} zu {Tageslicht:=>Scene}",
+				"Setze die Lichtszene im {Büro:=>Location} auf {Tageslicht:=>Scene} bitte",
+				"Setze die Lichtszene in der {Küche:=>Location} auf {Tageslicht:=>Scene} bitte",
+				"Setze die Lichtszene im {Büro:=>Location} auf {Tageslicht:=>Scene}",
+				"Setze die Lichtszene in der {Küche:=>Location} auf {Tageslicht:=>Scene}",
+				"Setze die Lichter im {Büro:=>Location} auf {Tageslicht:=>Scene} bitte",
+				"Setze die Lichter in der {Büro:=>Location} auf {Tageslicht:=>Scene} bitte",
+				"Setze die Lichter im {Büro:=>Location} auf {Tageslicht:=>Scene}",
+				"Setze die Lichter in der {Büro:=>Location} auf {Tageslicht:=>Scene}",
+				"Setze das {Schalfzimmer:=>Location} Licht zu {Morgen:=>Scene} bitte",
+				"Setze das {Schalfzimmer:=>Location} Licht zu {Morgen:=>Scene}",
+				"Setze die {Küche:=>Location} Lichter zu {Morgen:=>Scene} bitte",
+				"Setze die {Küche:=>Location} Lichter zu {Morgen:=>Scene}",
+				"Setze das {Schalfzimmer:=>Location} Licht auf {Morgen:=>Scene} bitte",
+				"Setze das {Schalfzimmer:=>Location} Licht auf {Morgen:=>Scene}",
+				"Setze die {Küche:=>Location} Lichter auf {Morgen:=>Scene} bitte",
+				"Setze die {Schalfzimmer:=>Location} Lichter auf {Morgen:=>Scene}",
+				"Setze die {Küche:=>Location} Szene zu {Morgen:=>Scene} bitte",
+				"Setze die {Küche:=>Location} Szene zu {Morgen:=>Scene}",
+				"Setze die {Schalfzimmer:=>Location} Szene auf {Morgen:=>Scene} bitte",
+				"Setze die {Küche:=>Location} Szene auf {Morgen:=>Scene}",
+				"Setze die {Schalfzimmer:=>Location} Lichtszene zu {Sundowner:=>Scene} bitte",
+				"Setze die {Schalfzimmer:=>Location} Lichtszene zu {Sundowner:=>Scene}",
+				"Setze die {Schalfzimmer:=>Location} Lichtszene auf {Sundowner:=>Scene} bitte",
+				"Setze die {Schalfzimmer:=>Location} Lichtszene auf {Sundowner:=>Scene}",
+				"Wechsel das Licht im {Wohnzimmer:=>Location} zu {Energie tanken:=>Scene} bitte",
+				"Wechsel das Licht im {Wohnzimmer:=>Location} zu {Energie tanken:=>Scene}",
+				"Wechsel die Lichter im {Wohnzimmer:=>Location} zu {Energie tanken:=>Scene} bitte",
+				"Wechsel die Lichter im {Wohnzimmer:=>Location} zu {Energie tanken:=>Scene}",
+				"Wechsel das Licht in der {Küche:=>Location} zu {Energie tanken:=>Scene} bitte",
+				"Wechsel das Licht in der  {Küche:=>Location} zu {Energie tanken:=>Scene}",
+				"Wechsel die Lichter in der {Küche:=>Location} zu {Energie tanken:=>Scene} bitte",
+				"Wechsel die Lichter in der {Küche:=>Location} zu {Energie tanken:=>Scene}",
+				"Bitte setze die Szene zu {Energie tanken:=>Scene}",
+				"Bitte setze die Szene auf {Energie tanken:=>Scene}",
+				"Setze die Szene zu {Energie tanken:=>Scene}",
+				"Setze die Szene auf {Energie tanken:=>Scene}",
+				"Setze die Lichtszene zu {Tageslicht:=>Scene}",
+				"Setze die Lichtszene auf {Tageslicht:=>Scene}",
+				"Lichtszene im {Wohnzimmer:=>Location} zu {Sundowner:=>Scene} bitte",
+				"Lichtszene im {Wohnzimmer:=>Location} zu {Sundowner:=>Scene}",
+				"Lichtszene in der {Küche:=>Location} zu {Energie tanken:=>Scene} bitte",
+				"Lichtszene in der {Küche:=>Location} zu {Energie tanken:=>Scene}"
+			],
+			"slots": [
+				{
+					"name": "Scene",
+					"description": null,
+					"required": false,
+					"type": "LightScene",
+					"missingQuestion": ""
+				},
+				{
+					"name": "Location",
+					"description": null,
+					"required": false,
+					"type": "Alice/Location",
+					"missingQuestion": ""
+				}
+			]
+		}
+	]
+}

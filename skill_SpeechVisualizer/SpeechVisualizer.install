@@ -1,0 +1,29 @@
+{
+	"name": "SpeechVisualizer",
+	"version": "1.0.3",
+	"author": "philipp2310",
+	"maintainers": [
+		"Psychokiller1888"
+	],
+	"desc": "Shows the voice in and output as a widget",
+	"aliceMinVersion": "1.0.0-a6",
+	"icon": "fas fa-comments",
+	"category": "assistance",
+	"systemRequirements": [
+		""
+	],
+	"pipRequirements": [
+		""
+	],
+	"conditions": {
+		"lang": [
+			"en",
+			"fr",
+			"de",
+			"it"
+		],
+		"asrArbitraryCapture": true,
+		"activeManager": [
+		]
+	}
+}

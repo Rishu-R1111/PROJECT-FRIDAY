@@ -1,0 +1,78 @@
+{
+	"pressBridgeButton": [
+		"Bitte drücke den Knopf auf deiner Philips Hue Bridge"
+	],
+	"pressBridgeButtonConfirmation": [
+		"Deine Philips Hue Bridge ist nun konfiguriert"
+	],
+	"pressBridgeButtonTimeout": [
+		"Du hast den Knopf nicht rechtzeitig gedrückt, deine Bridge steht mir nicht zur Verfügung"
+	],
+	"roomUnknown": {
+		"default": [
+			"Entschuldige, dem Raum {} sind keine Philips Hue Lampen zugewiesen",
+			"Das geht leider nicht, es gibt keine Philips Hue Lampen in {}"
+		],
+		"short": [
+			"Nein, keine smarten Leuchten"
+		]
+	},
+	"sceneUnknown": {
+		"default": [
+			"Die Szene \"{}\" kenne ich nicht",
+			"Entschuldige, das funktioniert nicht, mir ist die Szene {} unbekannt"
+		],
+		"short": [
+			"Ich kenne diese Szene nicht"
+		]
+	},
+	"confirm": [
+		"Ok!",
+		"Erledigt",
+		"Völlig klar!"
+	],
+	"cantSpecifyMoreThanOneScene": {
+		"default": [
+			"Tut mir leid, du kannst nicht mehrere Szenen gleichzeitig anlegen",
+			"Du kannst nur eine Szene gleichzeitig festlegen"
+		],
+		"short": [
+			"Mehrere Szenen sind nicht unterstützt"
+		]
+	},
+	"lightBridgeFailure": {
+		"default": [
+			"Es tut mir wirklich leid, aber ich konnte deine Philips Hue Bridge nicht finden, so kann ich deine Leuchten nicht steuern",
+			"Ich erreiche das Hub nicht, Kontrolle über das Licht nicht möglich"
+		],
+		"short": [
+			"Philips Hue Bridge nicht verbunden"
+		]
+	},
+	"lightBridgeNotRegistered": {
+		"default": [
+			"Bitte starte die Philips Hue Bridge neu und drück den Knopf. Die Leuchten sind nicht verbunden"
+		],
+		"short": [
+			"Philips Hue Bridge neu starten und Knopf drücken"
+		]
+	},
+	"sceneNotInThisRoom": {
+		"default": [
+			"Diese Szene existiert für diesen Raum nicht",
+			"Ich kann diese Szene für diesen Raum nicht finden",
+			"Die geforderte Szene gibt es in diesem Raum nicht"
+		],
+		"short": [
+			"Ich kenne diese Szene nicht"
+		]
+	},
+	"whatPercentage": [
+		"Sicher! Auf wie viel Prozent?",
+		"Wie viel Prozent möchtest du?"
+	],
+	"whatScenery": [
+		"Welche Szene?",
+		"Bitte? Welche Szene möchtest du?"
+	]
+}

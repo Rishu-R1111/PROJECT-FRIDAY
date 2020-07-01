@@ -1,0 +1,15 @@
+{
+	"currentWeather": [
+		"In {0} ist es {1}° und {2}",
+		"Es ist {2} bei {1}° in {0}"
+	],
+	"forecast": [
+		"{} in {} ist es {} mit einer Temperatur zwischen {} and {}"
+	],
+	"notFound": [
+		"Entschuldigung, ich konnte keine Wetterdaten für {} finden. Für welche Stadt willst du das Wetter wissen?"
+	],
+	"noApiKey": [
+		"Du hast noch keinen Schlüssel für \"Open Weather Map\" hinterlegt. Bitte gehe hierfür in die Einstellungen"
+	]
+}

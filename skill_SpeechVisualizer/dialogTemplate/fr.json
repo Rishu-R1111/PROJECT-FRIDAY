@@ -1,0 +1,7 @@
+{
+	"skill": "SpeechVisualizer",
+	"icon": "time",
+	"description": "Shows the voice in and output as a widget",
+	"slotTypes": [],
+	"intents": []
+}
