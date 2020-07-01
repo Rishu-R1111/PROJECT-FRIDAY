@@ -35,7 +35,8 @@ Ai insource:Cortex
 
 -------------------------------------
  Ogui v0.2.0
-------------------------------------
+------------------------------------ 
+                       is supported Now
 
    <p align="center">
 <img src="https://raw.githubusercontent.com/maxmillion18/Ogui/master/images/1.png" width="95%" height="auto">
