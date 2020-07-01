@@ -9,7 +9,7 @@ HeY, M Rishu , I am developing this project with using python more like the Goog
 Friday : From The Avengers 
 ------------------------------------
 <p align="center">
-<img src="https://vignette.wikia.nocookie.net/ironman/images/0/03/F.R.I.D.A.Y.jpg/revision/latest?cb=20191210194050" width="95%" height="auto">
+<img src="https://vignette.wikia.nocookie.net/ironman/images/0/03/F.R.I.D.A.Y.jpg/revision/latest?cb=20191210194050" width="85%" height="auto">
 </p>
 
 <p align="center">
@@ -50,7 +50,7 @@ Ai insource:Cortex
 Added SCISSOR PAPER ROCK GAME – PYTHON
 ------------------------------------
    <p align="center">
-<img src="https://aihubprojects.com/wp-content/uploads/2019/10/Screenshot-from-2019-01-07-22-11-50.png" width="75%" height="auto">
+<img src="https://aihubprojects.com/wp-content/uploads/2019/10/Screenshot-from-2019-01-07-22-11-50.png" width="85%" height="auto">
 </p>
 
 -------------------------------------
