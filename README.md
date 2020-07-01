@@ -33,6 +33,37 @@ Ai insource:Cortex
 <img src="https://hackernoon.com/hn-images/1*KttGYdEfhQN7fVbF99dHXQ.jpeg" width="95%" height="auto">
 </p>
 
+-------------------------------------
+ Ogui v0.2.0
+------------------------------------
+
+   <p align="center">
+<img src="https://raw.githubusercontent.com/maxmillion18/Ogui/master/images/1.png" width="95%" height="auto">
+</p>
+
+Ogar can:
+- Run every Ogar server command (e.g. ```addbot```, ```mass```, ```board```)
+- Check output of commands ```playerlist``` and ```status```, then display them
+- Open gameserver.ini and modify it using the Config script (this will be added into the GUI)
+
+## Running
+
+### Unix (Linux, Mac)
+
+1. Install node, ws (for node), and pexpect (for python)
+2. Go to your favorite command line, and run: ```git clone https://github.com/maxmillion18/Ogui/; cd Ogui;```
+3. Run GUI.py (you may need root privileges)
+4. Have fun!
+
+### Windows
+
+1. Install node and npm, then install the npm module ws.
+2. Install the python module ```pexpect```
+3. Download Ogui's Zip file
+4. CD into the zip file
+5. Run GUI.py (again, root/administrator privileges may be needed)
+
+
 
 Before you going 
 you need to install few packages
@@ -40,5 +71,5 @@ you need to install few packages
 ------------------------------------
 
 ------------------------------------
-Better VSC integration trackers, KOTLIN  JVL-based  project Application, typecasted in XML ;; AspectJ, CDI,  EJB, Grails, GWT, Helidon, Java EE, JavaFX, JSF, JPA, and Hibernate, Message queues, Micronaut, OSGi, Project Reactor, Quarkus, Seam, Spring, Struts 2, Tapestry, Template Languages: Velocity and FreeMarker, Thymeleaf, Tiles 3, Non-JVM technologies.
+Better VSC integration trackers, KOTLIN-XML-PYTHON3  JVL-based  project Application, typecasted in XML ;; AspectJ, CDI,  EJB, Grails, GWT, Helidon, Java EE, JavaFX, JSF, JPA, and Hibernate, Message queues, Micronaut, OSGi, Project Reactor, Quarkus, Seam, Spring, Struts 2, Tapestry, Template Languages: Velocity and FreeMarker, Thymeleaf, Tiles 3, Non-JVM technologies.
 -------------------------------------
