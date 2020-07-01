@@ -1,11 +1,14 @@
 # Project_Friday
    
 
+------------------------------------
 HeY, M Rishu , 
                I am developing this project with using python more like the Google voice assistant. this was completed 40%. 
 Soon I Will be upgrading it fully based on Artifitial intelligence-Machine leaning like adaptibility.
 This project is about voice assistant like google ,amazon echo.
 If u guys have any good suggesstion please let me know. i can try definatly.
+
+------------------------------------
 
 <p align="center">
 <img src="https://vignette.wikia.nocookie.net/ironman/images/0/03/F.R.I.D.A.Y.jpg/revision/latest?cb=20191210194050" width="95%" height="auto">
@@ -24,7 +27,7 @@ If u guys have any good suggesstion please let me know. i can try definatly.
 
 
    <p align="center">
-<img src=".PNG" width="95%" height="auto">
+<img src="https://www.h2o.ai/wp-content/themes/h2o2018/templates/dist/images/homepage/imac_pro_mockup.png" width="95%" height="auto">
 </p>
 
 
