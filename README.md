@@ -1,7 +1,7 @@
 # Project_Friday_with_Alice
 
 ------------------------------------
-HeY, this is Rishu , I have developed this project with python alike the Google voice assistant. It was completed 42%(imo). Soon I will be upgrading it fully, based on Artifitial-intelligence Machine-learning like adaptibility. This project is about voice assistant like google  assistant, amazon echo. If you guys have any good suggestions, please let me know. I'll try definatly.
+HeY, this is Rishu , I have developed this project with python alike the Google voice assistant. It was completed 42%(imo). Soon I will be upgrading it fully, based on Artifitial-intelligence Machine-learning like adaptibility. This project is about voice assistant like google  assistant, amazon echo. If you guys have any good suggestions, please let me know. I'll try definitely .
 ------------------------------------
 This AI Personal Assistant comes in 2 diffrent voices
 ------------------------------------
@@ -33,7 +33,7 @@ Provides an easy way to control your leds in an Hermes environment
 
 
 -------------------------------------
-Yes, latest info about the Sensex graph , this Ai also gets you the smart predictions about stock marketing increment and decrement, operator stock values n real estate marketing.
+Yes, latest info about the Sensex graph , this AI also gets you the smart predictions about stock marketing increment and decrement, operator stock values n real estate marketing.
 ------------------------------------
    <p align="center">
 <img src="https://www.h2o.ai/wp-content/themes/h2o2018/templates/dist/images/homepage/imac_pro_mockup.png" width="95%" height="auto">
