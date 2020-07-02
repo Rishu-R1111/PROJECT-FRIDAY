@@ -1,7 +1,7 @@
 # Project_Friday_with_Alice
 
 ------------------------------------
-HeY, this is Rishu , I have developed this project with python alike the Google voice assistant. It was completed 50%(imo). Soon I will be upgrading it fully, based on Artifitial-intelligence Machine-learning like adaptibility. This project is about voice assistant like google ,amazon echo. If you guys have any good suggestions, please let me know. I'll try definatly.
+HeY, this is Rishu , I have developed this project with python alike the Google voice assistant. It was completed 42%(imo). Soon I will be upgrading it fully, based on Artifitial-intelligence Machine-learning like adaptibility. This project is about voice assistant like google  assistant, amazon echo. If you guys have any good suggestions, please let me know. I'll try definatly.
 ------------------------------------
 This AI Personal Assistant comes in 2 diffrent voices
 ------------------------------------
@@ -40,7 +40,7 @@ Yes, latest info about the Sensex graph , this Ai also gets you the smart predic
 </p>
 
 -------------------------------------
-Ai insource:Cortex
+AI insource:Cortex
 ------------------------------------
    <p align="center">
 <img src="https://hackernoon.com/hn-images/1*KttGYdEfhQN7fVbF99dHXQ.jpeg" width="95%" height="auto">
