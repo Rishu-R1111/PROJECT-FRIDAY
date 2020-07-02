@@ -1,7 +1,7 @@
 # Project_Friday_with_Alice
 
 ------------------------------------
-HeY, M Rishu , I have developed this project with using python alike the Google voice assistant. this was completed 50%(imo). Soon I Will be upgrading it fully based on Artifitial-intelligence Machine-learning like adaptibility. This project is about voice assistant like google ,amazon echo. If you guys have any good suggesstion please let me know. I can try definatly.
+HeY, this is Rishu , I have developed this project with python alike the Google voice assistant. It was completed 50%(imo). Soon I will be upgrading it fully, based on Artifitial-intelligence Machine-learning like adaptibility. This project is about voice assistant like google ,amazon echo. If you guys have any good suggestions, please let me know. I'll try definatly.
 ------------------------------------
 This AI Personal Assistant comes in 2 diffrent voices
 ------------------------------------
