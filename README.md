@@ -135,7 +135,7 @@ Can be :
 
 
 Before you going 
-you need to install few packages
+you need to install few packages 
 
 ------------------------------------
 
