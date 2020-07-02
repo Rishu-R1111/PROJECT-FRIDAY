@@ -33,7 +33,7 @@ Provides an easy way to control your leds in an Hermes environment
 
 
 -------------------------------------
-Yes, Latest info about the Sunsex graph , this Ai also gets U the smart peridictions about stock markating increment and decrement, operator stock values n realestate marketing.
+Yes, latest info about the Sensex graph , this Ai also gets you the smart predictions about stock marketing increment and decrement, operator stock values n real estate marketing.
 ------------------------------------
    <p align="center">
 <img src="https://www.h2o.ai/wp-content/themes/h2o2018/templates/dist/images/homepage/imac_pro_mockup.png" width="95%" height="auto">
