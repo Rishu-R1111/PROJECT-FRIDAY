@@ -33,7 +33,7 @@ Provides an easy way to control your leds in an Hermes environment
 
 
 -------------------------------------
-Yes, U can get the latest info about the Sunsex graph , this Ai also get U smart peridictions about stock markating increment and decrement, operator stock values n realestate marketing.
+Yes, Latest info about the Sunsex graph , this Ai also gets U the smart peridictions about stock markating increment and decrement, operator stock values n realestate marketing.
 ------------------------------------
    <p align="center">
 <img src="https://www.h2o.ai/wp-content/themes/h2o2018/templates/dist/images/homepage/imac_pro_mockup.png" width="95%" height="auto">
@@ -83,7 +83,7 @@ Futuristic Menu UI
 </p>
 
 -------------------------------------
-Futuristic Weather api
+Futuristic Weather UI
 ------------------------------------
    <p align="center">
 <img src="https://i.pinimg.com/originals/a9/34/dd/a934dd3a1fa9634b7c7f4e1bbaa9534b.jpg" width="65%" height="auto">
@@ -95,7 +95,7 @@ Futuristic Weather api
 </p>
 
 -------------------------------------
-Fully Customizable Ui
+Fully Customizable 
 ------------------------------------
    <p align="center">
 <img src="https://previews.123rf.com/images/sergeybitos/sergeybitos1805/sergeybitos180500040/101668096-futuristic-sci-fi-modern-user-interface-set-abstract-hud-hologram-elements-of-digital-data-chart-com.jpg" width="95%" height="auto">
